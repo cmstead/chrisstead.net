@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Coder Joy - Exploring Joyfulness In Creating Software"
-date:   2018-02-26 00:00:00 -0800
-categories: Coding General-Blogging
+date:   2018-02-26 09:00:45 -0800
+categories: Coding, General Blogging
 ---
-A couple weeks ago, I attended <a href="http://www.chrisstead.com/archives/1/hello-world/">Agile Open Northwest</a>. As with every other Agile Open conference I attend there were plenty of eye-opening experiences. One experience which surprised me was actually a session I facilitated. I went in with a concept of where it would land and I was dead, flat wrong.
+{% raw %}
+A couple weeks ago, I attended <a href="http://www.chrisstead.net/archives/1/hello-world/">Agile Open Northwest</a>. As with every other Agile Open conference I attend there were plenty of eye-opening experiences. One experience which surprised me was actually a session I facilitated. I went in with a concept of where it would land and I was dead, flat wrong.
 
 I anticipated my session about creating joy for coders would be small and filled primarily with technical folk who wanted to figure out how they could make their experience incrementally better while they worked daily at their company. Instead I had a large crowd of people who performed a variety of duties at their company and they all wanted to get a perspective on how to make things more joyful. This, in itself, brought me a ton of joy.
 <h3>The Inspiration</h3>
@@ -67,3 +68,5 @@ I will say, there is a fair amount of time I spend seeking joy on my own. I typi
 It's really hard to say what might bring joy in a team or even for an individual, but I find joy often comes to me as clear communication -- both in code and person to person, as a sense of directed purpose, as automation, and as opportunity to share, with others, the things which make my life a little better.
 
 Perhaps you'll find your team values some of these things as well. In all likelihood, your team will value things I wouldn't have thought to include in this post; this too is completely acceptable. Unfortunately seeking joy is not a clear path with a process to force it to emerge. Joy is a lot like love, you just know it when you feel it.
+{% endraw %}
+    

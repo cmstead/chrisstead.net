@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Javascript: Require and Import Found Harmful"
-date:   2018-04-05 00:00:00 -0700
-categories: Code-Smells Design-Patterns General-Blogging Testing Javascript
+date:   2018-04-05 13:12:01 -0700
+categories: Code Smells, Design Patterns, General Blogging, Javascript, Testing
 ---
-For the moment, let's go ahead and make an assumption: automated tests (unit tests, integration tests, etc.) <a href="http://www.chrisstead.com/archives/1/hello-world/">make code safer</a> to write, update and change. Even if tests break, it says something about how the code was written and pulled together while running. I will address this concern in another post at a later date. Nevertheless, I am going to rely on this assumption throughout this post, so if you disagree with the initial assumption, you might be better served to drop out now.
+{% raw %}
+For the moment, let's go ahead and make an assumption: automated tests (unit tests, integration tests, etc.) <a href="http://www.chrisstead.net/archives/1/hello-world/">make code safer</a> to write, update and change. Even if tests break, it says something about how the code was written and pulled together while running. I will address this concern in another post at a later date. Nevertheless, I am going to rely on this assumption throughout this post, so if you disagree with the initial assumption, you might be better served to drop out now.
 
 Now that the grumpy anti-testers are gone, let's talk, just you and I.
 
@@ -59,3 +60,5 @@ Let's have a look at what a test might look like using the same application modu
 With all of the overhead around filesystem management removed, it becomes much easier to think about what our code is doing in isolation. This means our application is far easier to manage and our tests are easier to write and maintain. Now, isn't that really what we all want in the end?
 
 For examples of full applications written using DI/IoC and Dject in specific, I encourage you to check out the code for <a href="https://github.com/cmstead/js-refactor" target="_blank" rel="noopener">JS Refactor</a> (the application that birthed Dject in the first place) and <a href="https://github.com/cmstead/stubcontractor" target="_blank" rel="noopener">Stubcontractor</a> (a test helper for automatically generating fakes).
+{% endraw %}
+    

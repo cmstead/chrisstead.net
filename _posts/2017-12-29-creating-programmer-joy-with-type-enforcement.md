@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Creating Programmer Joy with Type Enforcement"
-date:   2017-12-29 00:00:00 -0800
-categories: Coding Javascript Design-Patterns Types
+date:   2017-12-29 10:22:13 -0800
+categories: Coding, Design Patterns, Javascript, Types
 ---
+{% raw %}
 It's extremely common for developers who work in statically typed languages to talk about how much easier their code is to maintain and that the code is self-documenting because of the type system.  However, these same programmers often talk about the amount of "ceremony" they have to overcome to work within the type system and language of their choice.  The ceremony issue seems to be reduced to zero within the Javascript community because of the dynamic type system.  On the other hand it is common to hear JS developers complain about the level of difficulty regarding maintaining a codebase which brought them so much joy while they were creating it.
 
 In a project I have been maintaining for the last couple of years, I started off with the creation joy only to find myself fearing the idea of jumping back in and making updates to resolve bugs logged by users.  I started considering options.  Should I rewrite the entire codebase from scratch? Should I write it with a different language altogether?  It is a plugin for VS Code, so Typescript is the preferred option, though everything I wrote was in vanilla Javascript.
@@ -47,3 +48,5 @@ Now, does this mean that types ARE joy? No.
 All this really says is a good, rich type system can, and should, help tell the story of your program.  It is worth noting my code reflects the domain I work in, not the types of data living within objects and values. Arguably, if a programmer goes type crazy and codes something obscure into types (like some of the atrocities committed by overzealous Scala programmers) the types can bring pain. Instead we should aim to speak the same language as other humans who work around us.  Never too clever, never too obscure, just abstraction in simple language which helps form immediate context.
 
 At the end of the day, anything could be used to build beautiful abstractions, but why not use a <a href="https://www.npmjs.com/package/signet" rel="noopener" target="_blank">tool that helps you fall into the pit of success</a>?
+{% endraw %}
+    

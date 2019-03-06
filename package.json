@@ -1,0 +1,23 @@
+{
+  "name": "chrisstead.net",
+  "version": "1.0.0",
+  "description": "*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.",
+  "main": "post-importer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmstead/chrisstead.net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmstead/chrisstead.net/issues"
+  },
+  "homepage": "https://github.com/cmstead/chrisstead.net#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "xml2js": "^0.4.19"
+  }
+}

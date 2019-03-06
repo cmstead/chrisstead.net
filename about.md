@@ -13,9 +13,8 @@ I started learning the theoretical and practical underpinnings of functional lan
 
 Today I use what I have learned over the past twenty years of experience to guide my direction, web applications with a specialty in browser-side middleware and data-driven development. I have built several proof of concept and practical libraries to simplify and streamline the process of building robust, reliable, maintainable software to run in the browser.
 
-For a list of my latest projects, please see the <a href="http://www.chrisstead.com/projects">projects section</a> of my site.
+For a list of my latest projects, please see the <a href="http://www.chrisstead.net/projects">projects section</a> of my site.
 <ul>
-	<li>Read my <a href="http://chrisstead.com/wp-content/resume/" target="_blank">resume</a></li>
 	<li>Follow me on <a href="http://www.twitter.com/cm_stead" target="_blank">Twitter</a></li>
 	<li>Fork me on <a href="http://github.com/cmstead" target="_blank">Github</a></li>
 	<li>Visit me on <a href="http://www.linkedin.com/in/cmstead" target="_blank">LinkedIn</a></li>
