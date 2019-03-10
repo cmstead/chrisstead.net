@@ -23,7 +23,7 @@ Let's, now, consider the two groups who are much larger than the  IE 5.5 crowd: 
 
 First, the blind.  Blind people use screen readers to view web sites. Though I am unsure as to the latest capabilities of screen readers, but the last time I did reading about screen readers for the blind, I was brought to understand that their experience is a little like using Lynx.  See a screencap below to get an idea of what Lynx is like.
 
-[caption id="attachment_182" align="alignnone" width="300" caption="chrisstead.net on Lynx"]<a href="http://www.chrisstead.net/wp-content/uploads/2010/02/lynx1.png"><img src="http://www.chrisstead.net/wp-content/uploads/2010/02/lynx1-300x210.png" alt="chrisstead.net on Lynx" width="300" height="210" class="size-medium wp-image-182" /></a>[/caption]
+[caption id="attachment_182" align="alignnone" width="300" caption="chrisstead.net on Lynx"]<a href="http://www.chrisstead.net/assets/uploads/2010/02/lynx1.png"><img src="http://www.chrisstead.net/assets/uploads/2010/02/lynx1-300x210.png" alt="chrisstead.net on Lynx" width="300" height="210" class="size-medium wp-image-182" /></a>[/caption]
 
 As you can see, browsing for the blind is kind a no-frills venture.  No CSS, no Javascript, no imagery.  Since many of them can't see what you have made available, (yes, there are varying degrees of blindness) they have to rely on a program to read the screen for them.  This means, pages that rely on Javascript for core functionality are out of reach for these users.
 

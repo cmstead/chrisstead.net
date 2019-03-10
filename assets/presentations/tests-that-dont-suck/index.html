@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Communicating With Code: Tests That Don't Suck</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/beige.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<style>
+		pre {
+			border: 0;
+			margin: 0;
+			padding: 0;
+			box-shadow: none !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				<h1>Communicating with Code</h1>
+				<h3>Tests That Don't Suck</h3>
+			</section>
+
+			<section>
+				<h2>I'm Chris</h2>
+				<h3>@cm_stead</h3>
+				<h3>www.chrisstead.net</h3>
+			</section>
+
+			<section>
+				<h2>A Little About Me</h2>
+
+				<ul>
+					<li class="fragment">I dig #CodingJoy</li>
+					<li class="fragment">I believe #CodeIsForHumans</li>
+					<li class="fragment">I make tools:
+						<ul>
+							<li>JS Refactor</li>
+							<li>Dject</li>
+							<li>Mochadoc</li>
+							<li>Signet</li>
+							<li>Stubcontractor</li>
+							<li>And more...</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h1>QUEEN</h1>
+
+				<p>Four great musicians brought together in harmony</p>
+			</section>
+
+			<section>
+				<h1>Testing</h1>
+
+				<p>Many great tools brought together in harmony</p>
+			</section>
+
+			<section>
+				<h2>Legacy Code ...</h2>
+				<p>... is any code without tests.</p>
+				<p>&mdash; Michael Feathers</p>
+			</section>
+
+			<section>
+				<h3>WidgeTest9000 is Legacy Code:</h3>
+				<img src="./images/widge-test-9000-screenshot.png" alt="widgeTest9000 source code">
+			</section>
+
+			<section>
+				<h2>Let's write a test!</h2>
+			</section>
+
+			<section>
+				<h3>The Setup:</h3>
+				<!-- video src="./video/01-set-up-beforeach.mp4" controls="controls"></video -->
+				<img src="./images/test-setup-complete.png" alt="Completed test setup - where we are going">
+			</section>
+
+			<section>
+				<h2>As you build your test</h2>
+				<h3>Follow the errors, then fake it 'til you make it!</h3>
+				<h4>(Or stub it, or spy it, or mock it...)</h4>
+			</section>
+
+			<section>
+				<h2>The Meat of the Test</h2>
+
+				<h4>The Three-A Approach:</h4>
+				<ul>
+					<li>Arrange</li>
+					<li>Act</li>
+					<li>Assert</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>The Arrangement and Action:</h3>
+				<video id="arrange-and-action" src="./video/02-test-arrangement.mp4" controls="controls"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="arrange-and-action">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h3>The Assertion:</h3>
+				<video id="assert" src="./video/03-test-approve.mp4" controls="controls"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="assert">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>Why Do We Say We Test?</h2>
+				<ul class="fragment">
+					<li>To verify correct behavior</li>
+					<li>To capture information about bugs</li>
+					<li>To meet code coverage</li>
+					<li>We were told to</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Tests Get No Respect</h2>
+				<img src="./images/rodney-dangerfield.jpg">
+			</section>
+
+			<section>
+				<h2>Are There Better Reasons To Test?</h2>
+
+				<ul>
+					<li class="fragment">Communication</li>
+					<li class="fragment">Communication</li>
+					<li class="fragment">Communication</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>We Exercised The Code, But...</h2>
+
+				<ul>
+					<li>Description text should declare intent</li>
+					<li>Named variables expose meaning better</li>
+					<li>Complicated objects can be extracted away</li>
+					<li>Domain knowledge can be built in</li>
+				</ul>
+			</section>
+
+			<section>
+				<img src="./images/so-close.jpg">
+			</section>
+
+			<section>
+				<h2>Tests That Communicate</h2>
+
+				<ul>
+					<li class="fragment">Inform other developers of original intent</li>
+					<li class="fragment">Exemplify API use</li>
+					<li class="fragment">Deepen understanding of the business domain</li>
+					<li class="fragment">Expose criteria for correct behavior</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Writing Great Code Is Like Writing A Great Story</h2>
+				<h4 class="fragment">It Never Happens In A Single Pass</h4>
+			</section>
+
+			<section>
+				<h2>Where Do We Start?</h2>
+				<p>Sometimes choosing the right place to start is the hardest thing you'll do all day</p>
+			</section>
+
+			<section>
+				<h2>Here's What I'll Do</h2>
+
+				<ol>
+					<li class="fragment">Update description</li>
+					<li class="fragment">Extract variables</li>
+					<li class="fragment">Build factory for setup data</li>
+				</ol>
+			</section>
+
+			<section>
+				<h2>Why Go That Way?</h2>
+
+				<ol>
+					<li class="fragment">A good description provides a goal</li>
+					<li class="fragment">Extracting variables is fast and easy</li>
+					<li class="fragment">Data factories improve signal to noise</li>
+					<li class="fragment">But first...</li>
+				</ol>
+			</section>
+
+			<section>
+				<h2>Model Your Domain</h2>
+				<h4 class="fragment">Use types as a domain specific language for your expectations</h4>
+			</section>
+
+			<section>
+				<h3>Off-The-Shelf to Bespoke Domain Types</h3>
+				<video id="domain-types" src="./video/10-domain-language-as-types.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="domain-types">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>A Well-Described Test</h2>
+				<h4>Choice Words Make All The Difference</h4>
+			</section>
+
+			<section>
+				<h2>Choosing a test name</h2>
+
+				<ul>
+					<li>What does it do?</li>
+					<li>Why does it do that?</li>
+					<li>How does it align with the domain?</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Everything is in a Name</h3>
+				<video id="naming" src="./video/04-test-rename.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="naming">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>Extract Variable</h2>
+				<h4>Part of This Healthy Refactoring</h4>
+			</section>
+
+			<section>
+				<h3>Let's Extract!</h3>
+				<video id="extracting" src="./video/05-extract-variables.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="extracting">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h3>Automate Your Refactorings</h3>
+
+				<h4>Hot Take: If your editor doesn't support automated refactorings, ditch it.</h4>
+				<h5>Don't @ me.</h5>
+			</section>
+
+			<section>
+				<h2>Factories For Fun and Profit</h2>
+				<h4>Declarative Test Data with DataMother</h4>
+			</section>
+
+			<section>
+				<h3>Moving Our Spec to DataMother</h3>
+				<video id="data-factory" src="./video/06-extract-data-to-datamother.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="data-factory">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>Happy Extractions, Everywhere!</h2>
+				<img src="./images/wilt-snuggle-bear-full.jpg">
+			</section>
+
+			<section>
+				<h2>Isolating Code Under Test</h2>
+				<h4>The more logic you touch, the more complicated your tests become</h4>
+			</section>
+
+			<section>
+				<h3>Generating Test Doubles At the Seam</h3>
+				<video id="test-doubles" src="./video/07-isolate-test-module.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="test-doubles">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>Touch Integration</h2>
+				<h4>Humans make mistakes; automatically generate all of the test doubles you can</h4>
+			</section>
+
+			<section>
+				<h3>Fix That Broken Test!</h3>
+				<video id="fix-broken-test" src="./video/08-match-approvals-to-description.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="fix-broken-test">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h3>Capture Side Effects in a New Test</h3>
+				<video id="build-new-test" src="./video/09-capture-logger-output.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="build-new-test">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<h2>Dodging Double Duty</h2>
+				<h4>When the tests are clear and clean, you can leave the documentation work to the machine!</h4>
+			</section>
+
+			<section>
+				<h3>Generate API Docs</h3>
+				<video id="generate-docs" src="./video/11-mochadoc-generated-docs.mp4"></video>
+				<h5>
+					<a href="#" class="video-player" video-id="generate-docs">Play Video</a>
+				</h5>
+			</section>
+
+			<section>
+				<img src="./images/enlightenment.jpg">
+			</section>
+
+			<section>
+				<h2>The Takeaway</h2>
+
+				<ul>
+					<li class="fragment">Tests should do more than exercise code</li>
+					<li class="fragment">All good tests should facilitate communication</li>
+					<li class="fragment">Tests + documentation is doubling your effort</li>
+					<li class="fragment">The right tools can ease testing turmoil</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>The Source Code:</h2>
+				<p>
+					<a href="https://github.com/cmstead/tests-that-dont-suck-example">
+						https://github.com/cmstead/tests-that-dont-suck-example
+					</a>
+				</p>
+			</section>
+
+			<section>
+				<h2>The Tools</h2>
+
+				<ul>
+					<li>VS Code</li>
+					<li>JS Refactor</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>The Libraries</h2>
+				<ul>
+					<li>Approvals</li>
+					<li>Dject</li>
+					<li>Chai</li>
+					<li>Datamother</li>
+					<li>Eslint</li>
+					<li>Mocha</li>
+					<li>Mochadoc</li>
+					<li>Signet</li>
+					<li>Sinon</li>
+					<li>Stubcontractor</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>The Slides</h2>
+
+				<p>http://www.chrisstead.net/presentations/tests-that-dont-suck</p>
+			</section>
+
+			<section>
+				<h2>Thank You!</h2>
+				<h4>@cm_stead</h4>
+			</section>
+
+		</div>
+	</div>
+
+	<script>
+		// Hand-crafted organic, farm-to-table video player code:
+		function playVideo(id) {
+			const videoElement = document.getElementById(id);
+			videoElement.play();
+		}
+
+		const videoPlayLinks = document.getElementsByClassName('video-player');
+
+		Array.prototype.slice.call(videoPlayLinks)
+			.forEach(function (linkElement) {
+				const videoId = linkElement.getAttribute('video-id');
+				linkElement.addEventListener('click', function (e) {
+					console.log('Something was clicked');
+					e.preventDefault();
+					e.stopPropagation();
+					playVideo(videoId);
+				});
+			});
+	</script>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: false,
+			history: true,
+			transition: 'fade',
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>

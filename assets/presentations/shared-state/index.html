@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Three Simples Rules for Managing Shared State</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-markdown>
+					#Three Simple Rules For Managing Shared State
+				</section>
+				
+				<section>
+					<h3>Why Talk About This</h3>
+
+					<ul>
+						<li class="fragment">Shared state sucks</li>
+						<li class="fragment">For a stateless platform, the web has become really stateful</li>
+						<li class="fragment">SPAs introduce and deal with state all over the place</li>
+					</ul>
+				</section>
+				
+				<section>
+					<section data-markdown>
+						###Rule #1
+						##Don't do it
+					</section>
+					
+					<section data-background="images/Grumpy-Cat-NO-4.jpg">
+						&nbsp;
+					</section>
+					
+					<section>
+						<h3>Write Stateless Code</h3>
+						
+						<ul>
+							<li class="fragment">Use functional paradigms</li>
+							<li class="fragment">Prefer Data Transformations Over Modifications</li>
+							<li class="fragment">Rely on your State Machine (router) for State Maintenance</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3>What If There's Global Data?</h3>
+						
+						<p class="fragment">Make a copy of the data and operate on that</p>
+						
+						<p class="fragment">...Then shoot the developer that created a global variable</p>
+					</section>
+				</section>
+
+				<section>
+					
+					<section data-markdown>
+						###Rule #2
+						##Keep state near the ui
+					</section>
+					
+					<section data-markdown>
+						This is a two step process:
+						
+						1. Modularize state data
+						2. Bundle it with the UI
+					</section>
+					
+					<section data-markdown>
+						###Frameworks Support This!
+						
+						- Backbone -- Views and models are bound together
+						- React -- JSX interacts with state tree/hierarchy
+						- Angular -- 1.x has directives, 2.x has components
+						- Ember -- Components
+					</section>
+					
+				</section>
+				
+				<section>
+					
+					<section data-markdown>
+						###Rule #3
+						##Keep it encapsulated
+					</section>
+					
+					<section data-markdown>
+						###Think Object Oriented
+						
+						- Create state/transaction objects
+						- Handle change through formal mutation
+						- Keep the data out of meddling hands
+					</section>
+					
+					<section data-markdown>
+						###Sometimes Ceremony is a Good Thing
+						
+						Using getters and setters makes it obvious when things are modified
+						
+						- Set the data with a setter function: stateObject.set(key, value)
+						- Get the data with a getter function: stateObject.get(key)
+					</section>
+					
+					<section data-markdown>
+						###Encapsulating Data Means Hiding
+						
+						- Use data hiding to keep operations from mucking up your work
+						- Look to pointers and factories to help keep things under wraps
+					</section>
+					
+				</section>
+				
+				<section data-markdown>
+					###Recap
+					
+					- Avoid shared state
+					- Bind state to the UI
+					- Use OO principles to encapsulate your data
+				</section>
+
+				<section data-markdown>
+					##Questions?
+				</section>
+				
+				<section data-markdown>
+					###I'm Chris Stead
+					
+					
+					#@cm_stead
+					
+					##chrisstead.net
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

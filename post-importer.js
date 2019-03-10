@@ -3,8 +3,9 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
 const moment = require('moment');
+const importConfig = require('./postImporterConfig.json');
 
-const xmlPath = './chrisstead-webtheuniverseandeverything.wordpress.2019-03-05.xml';
+const { xmlPath, oldDomain, newDomain, wpContentLocation } = importConfig;
 
 const postXML = fs.readFileSync(xmlPath, { encoding: 'utf8' });
 
@@ -37,15 +38,17 @@ function buildCategories(categoryData) {
     });
 }
 
-const domainPattern = /chrisstead\.com/ig;
+const domainPattern = new RegExp(oldDomain, 'ig');
 const codePreTagPattern = /<pre class="language\:([^"]+)">/ig;
 const closePreTagPattern = /<\/pre>/ig;
+const wpContentPattern = /wp-content/ig;
 
 function cleanPostContent(postContent) {
     return postContent
-        .replace(domainPattern, 'chrisstead.net')
+        .replace(domainPattern, newDomain)
         .replace(codePreTagPattern, '```$1')
-        .replace(closePreTagPattern, '```');
+        .replace(closePreTagPattern, '```')
+        .replace(wpContentPattern, wpContentLocation);
 }
 
 function buildPostStuff(postRecord) {

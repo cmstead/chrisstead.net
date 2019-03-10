@@ -29,7 +29,7 @@ What this says is that the number of users still on your site, at time t, is equ
 
 Below is an estimation of what the graph would look like for your analysis:
 
-[caption id="" align="alignnone" width="380" caption="User Falloff Over Time"]<img alt="User Falloff Graph" src="/wp-content/uploads/2010/09/user-falloff.png" title="User Falloff Graph" width="380" height="235" />[/caption]
+[caption id="" align="alignnone" width="380" caption="User Falloff Over Time"]<img alt="User Falloff Graph" src="/assets/uploads/2010/09/user-falloff.png" title="User Falloff Graph" width="380" height="235" />[/caption]
 
 This may not seem like much of a revelation.  We all know that, as people run out of patience, they leave the site.  What this does is it gives us something we can plug into our calculators and project some sort of quantified result.  What this also means is, if you can produce results which fall beyond the bounds of this graph as you are testing, you know you are outperforming expected results.  You can also use this to compare to the number of people who satisfice during testing.
 

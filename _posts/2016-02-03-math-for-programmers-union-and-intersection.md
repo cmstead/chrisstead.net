@@ -51,11 +51,11 @@ Now we have a clear way to take any array and create an array of unique values i
 
 To really talk about the union operation it can be quite helpful to take a look at what a union of sets might look like. In words, union is an operation which takes two sets and creates a new set which contains all members, uniquely. This means, the union of {1, 2, 3} and {2, 3, 4} would be {1, 2, 3, 4}.  Let's look at a Venn diagram to see what this means graphically.
 
-<img src="/wp-content/uploads/images/union-and-intersection/union.png" alt="Venn diagram of a union of sets" />
+<img src="/assets/uploads/images/union-and-intersection/union.png" alt="Venn diagram of a union of sets" />
 
 For small sets of values, it is pretty easy to perform a union of all values, but as the sets grow, it becomes much more difficult.  Beyond this, since Javascript does not contain a unique function, i.e. the function we built above, nor does it contain a union function, we would have to build this behavior ourselves.  This means we have to think like a mathematical operator to create our function.  What we really need is a function with accepts two sets and maps them to a new set which contains the union of all elements.  Using a little bit of visual mathematics, our operation looks like the following:
 
-<img src="/wp-content/uploads/images/union-and-intersection/union-function.png" alt="Black box diagram of a union function" />
+<img src="/assets/uploads/images/union-and-intersection/union-function.png" alt="Black box diagram of a union function" />
 
 This diagram actually demonstrates one of the core ideas behind functional programming as well as giving us a goal to work toward.  Ultimately, if we had a function called union which we could use to combine our sets in a predictable way, we, as application developers, would not need to concern ourselves with the inner workings.  More importantly, if we understand, at a higher abstraction level, what union should be doing we will be able to digest, fairly immediately, what our function should take as arguments and what it will produce.  Our union function can be annotated as (array, array) -> array. Let's look at the implementation.
 
@@ -73,11 +73,11 @@ This concatenation behavior can be quite useful, but it is not a union operation
 
 Much like the union operation, before we try to talk too deeply about the intersection operation, it would be helpful to get a high-level understanding of what intersection means. Intersection is an operation which takes two sets and creates a new set which contains only the shared elements of the original sets.  This means the intersection of {1, 2, 3} and {3, 4, 5} is {3}.  Visually, intersection looks like the following diagram.
 
-<img src="/wp-content/uploads/images/union-and-intersection/intersection.png" alt="Venn diagram of an intersection of sets" />
+<img src="/assets/uploads/images/union-and-intersection/intersection.png" alt="Venn diagram of an intersection of sets" />
 
 The darker region represents the intersection of sets A and B, which, from our first example, is a set containing only the value 3, or {3}.  Much like the union operation, we can create a function intersect which takes two sets and returns a new set containing the intersection.  We can diagram this in the same way we did with union.
 
-<img src="/wp-content/uploads/images/union-and-intersection/intersection-function.png" alt="A black box diagram of an intersection function" />
+<img src="/assets/uploads/images/union-and-intersection/intersection-function.png" alt="A black box diagram of an intersection function" />
 
 This diagram shows us the close relation between intersect and union functions. The annotation for our intersection function is, actually, identical to our union function: (array, array) -> array. This means they share the same contract and could be used on the same sets to produce a result which, incidentally, will match the contract for any function which takes a set of values as a list.  Let's have a look at what the implementation of intersect looks like in Javascript.
 

@@ -11,7 +11,7 @@ Last post we discussed <a href="http://www.chrisstead.net/archives/1054/math-for
 
 One last, critical, function which is typically used on two or more sets is the difference operation. The difference of sets can be characterized as <em>A - B</em> where the outcome is the set A with all elements shared with set B removed. We can visualize the difference of sets with the following diagram.
 
-<img src="/wp-content/uploads/images/difference-of-sets/difference.png" alt="Venn diagram of a difference of sets" />
+<img src="/assets/uploads/images/difference-of-sets/difference.png" alt="Venn diagram of a difference of sets" />
 
 Unlike union and intersection which are commutative, the difference of two sets is not.  This means that <em>A &xcap; B</em> and <em>B &xcap; A</em> are the same operation; the same can be said for <em>A &xcup; B</em> and <em>B &xcup; A</em>. The difference <em>A - B</em> is not the same as <em>B - A</em>. We can create a concrete example as follows.
 
@@ -25,7 +25,7 @@ B - A = {6, 7}
 
 Clearly these two differences are distinct and different. It is quite helpful to understand the order result of set difference when trying to apply functionality to it. we can create a function, called difference, and apply it to two sets.  The action would behave like the following diagram:
 
-<img src="/wp-content/uploads/images/difference-of-sets/difference-function.png" alt="Visualization of a difference function" />
+<img src="/assets/uploads/images/difference-of-sets/difference-function.png" alt="Visualization of a difference function" />
 
 In order to apply our difference function, we need to use a couple of <a href="http://www.chrisstead.net/archives/1054/math-for-programmers-union-and-intersection/" target="_blank">helper functions</a> we introduced in the last post: unique and buildSetMap. These will be important for isolating unique elements and eliminating or keeping them according to our difference functionality.
 
@@ -71,7 +71,7 @@ This difference function will produce the difference of any two lists of primiti
 
 There is another difference operation which has a special name in computer science, the symmetric difference. Mathematically a symmetric difference can be written one of two ways, <em>(A - B) &xcup; (B - A)</em> or <em>(A &xcup; B) - (A &xcap; B)</em>. Both of these operations resolve the same way, which can be visualized by the following diagram.
 
-<img src="/wp-content/uploads/images/difference-of-sets/symmetric-difference.png" alt="Venn diagram of a symmetric difference of sets" />
+<img src="/assets/uploads/images/difference-of-sets/symmetric-difference.png" alt="Venn diagram of a symmetric difference of sets" />
 
 To make this more clear, let's have a look at a concrete example of a symmetric difference using our original sets A and B.
 
@@ -84,7 +84,7 @@ symmetricDifference(A, B) = {1, 2, 6, 7}
 
 What all of this really means is the symmetric difference takes everything from sets A and B and excludes the elements they share. A common example is a graph of students taking Math and English but none of the students which are taking both. We can create a function symmetricDifference which performs this operation and lives between the definition of sets A and B and the resulting set.
 
-<img src="/wp-content/uploads/images/difference-of-sets/symmetric-difference-function.png" alt="Visualization of a symmetric difference function" />
+<img src="/assets/uploads/images/difference-of-sets/symmetric-difference-function.png" alt="Visualization of a symmetric difference function" />
 
 <h3>Symmetric Difference Implementation</h3>
 

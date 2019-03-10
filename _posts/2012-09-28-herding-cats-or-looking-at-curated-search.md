@@ -17,13 +17,13 @@ The benefit of this is that you have a better understanding of what a person is 
 
 An example of how this works can be found on the HP site.  Below is a screencap of what their search looks like if you search for TouchSmart.  (I picked that term because it is their current ad and I knew I would get something good. Color me sneaky.)  You'll note they have a list of search results on the screen, but the very first thing to come up is a link straight to the TouchSmart product information.
 
-<img src="/wp-content/uploads/2012/09/hp-curated-search.png" alt="HP Curated Search Content" class="aligncenter" />
+<img src="/assets/uploads/2012/09/hp-curated-search.png" alt="HP Curated Search Content" class="aligncenter" />
 
 Pretty sweet, right?
 
 Okay, maybe looking at a computer search page doesn't get you all revved up and ready for action, but imagine if that image were your Siamese cat in need of glasses.  Now we're talking turkey, right?
 
-<img src="/wp-content/uploads/2012/09/siamese-glasses-search.png" alt="That cat needs some glasses" class="aligncenter" width="500" height="369" />
+<img src="/assets/uploads/2012/09/siamese-glasses-search.png" alt="That cat needs some glasses" class="aligncenter" width="500" height="369" />
 
 This doesn't do anyone any good if it doesn't do anyone any good, right?
 

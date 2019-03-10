@@ -45,7 +45,7 @@ So far I know nothing about what the callback does, but that's okay. This is a s
 
 Technically we have already exposed everything that needs to be known about callback streams, but it's a little early to end the post, since there isn't much to be gained here, yet. If all we did was wrap up our request in another function, the goodness isn't going to be readily obvious to someone who is coming fresh to this concept.  Let's take a look at what a callback stream looks like as an image before we start really digging in.
 
-<img src="./wp-content/uploads/images/callback-decoration.png" alt="Callback Decoration Diagram" />
+<img src="./assets/uploads/images/callback-decoration.png" alt="Callback Decoration Diagram" />
 
 The important thing to take away from our diagram is no one layer needs to know anything more than what is passed from the layer above.  It is unimportant to understand what the layer above does or why.  It is, however, very important to know how to respond to the callback that is passed in.  This is why contracts become so important in decoration.  If, at any point, we break a contract, our stream will break and our application will fail.  Fortunately, this adheres to the same requirements as calling any other function, so we are not introducing any greater rule strictness than we had before.
 

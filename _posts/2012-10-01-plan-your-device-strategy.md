@@ -13,7 +13,7 @@ This gives us something really easy to work with.  There are three devices, two
 
 My latest project, for which I am leading a team, needs two key items to make sense of the high-priority items on the site: device used and pages accessed.  After a bit of careful fiddling, I uncovered the following chart:
 
-[caption id="" align="aligncenter" width="400"]<img title="Device to Traffic Chart" src="/wp-content/uploads/2012/10/high-traffic-pages.png" alt="Device to Traffic Chart" width="400" height="271" /> Device to Traffic Chart[/caption]
+[caption id="" align="aligncenter" width="400"]<img title="Device to Traffic Chart" src="/assets/uploads/2012/10/high-traffic-pages.png" alt="Device to Traffic Chart" width="400" height="271" /> Device to Traffic Chart[/caption]
 
 This chart helped me to figure out what our device strategy would be.  Clearly our visitors from mobile devices have much more limited interests than those visiting from a standard computer interface.  Mobile first means we should guess at what should go on a site and what the user will want to do on a smaller device.  By analyzing the data, we can clearly define interactions on mobile devices which may, actually, not be important to highlight on the desktop.
 

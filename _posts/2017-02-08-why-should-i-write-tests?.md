@@ -17,7 +17,7 @@ Without further ado, let's take a look at a small, simple application which comp
 
 Now, this application is simple enough we could easily write it and refresh the browser to test it.  We can just add a few numbers to the input field and then get results back.  The hard part, from there, is to perform the computation by hand and then verify the values we get back.
 
-[caption width="390" align="aligncenter"]<img src="http://www.chrisstead.net/wp-content/uploads/2017/02/ui-manual-test.png" width="390" height="190" alt="Example of manual test output" class /> Manual test example[/caption]
+[caption width="390" align="aligncenter"]<img src="http://www.chrisstead.net/assets/uploads/2017/02/ui-manual-test.png" width="390" height="190" alt="Example of manual test output" class /> Manual test example[/caption]
 <br clear="all"/>
 
 Doing several of these tests should be sufficient to prove we are seeing the results we expect.  This gives us a reasonable first pass at whether our application is working as it should or not.  Beyond testing successful cases, we can try things like putting in numbers and letters, leaving the field blank or adding unicode or other strange input.  In each of these cases we will get NaN as a result.  Let's simply accept the NaN result as an expected value and codify that as part of our test suite.  My test script contains the following values:
@@ -68,7 +68,7 @@ With our new test runner, we can simply call the function and pass in our test v
 
 Once the app is loaded into our browser, we can open the console and start running test cases against the UI with a small amount of effort.  The output would look something like the image below.
 
-[caption width="518" align="aligncenter"]<img src="http://www.chrisstead.net/wp-content/uploads/2017/02/simple-ui-test-runs.png" width="518" height="238" alt="Single-run tests scripted against the UI" class /> Single-run tests scripted against the UI[/caption]
+[caption width="518" align="aligncenter"]<img src="http://www.chrisstead.net/assets/uploads/2017/02/simple-ui-test-runs.png" width="518" height="238" alt="Single-run tests scripted against the UI" class /> Single-run tests scripted against the UI[/caption]
 <br clear="all"/>
 
 We can see this adds a certain amount of value to our development effort by automating away the "copy, paste, click, check" tests we would be doing again and again to ensure our app continued to work the way we wanted it.  Of course, there is still a fair amount of manual work we are doing to type or paste our values into the console.  Fortunately we have a testing API ready to use for more scripting.  Let's extend our API a little bit and add some test cases.
@@ -79,7 +79,7 @@ Now, this is the kind of automated power we can get from being programmers.  We 
 
 As we write new code, we can guarantee in milliseconds whether our app is still working as designed or not.  Moreover, we are able to perform exploratory tests on the app and add the new-found results to our test suite, ensuring our app is quick to test from one run to the next.  Let's have a look at running the test suite from the console.
 
-[caption width="704" align="aligncenter"]<img src="http://www.chrisstead.net/wp-content/uploads/2017/02/batched-ui-test-runs.png" width="704" height="198" alt="Test suite run from the browser console" class /> Test suite run from the browser console[/caption]
+[caption width="704" align="aligncenter"]<img src="http://www.chrisstead.net/assets/uploads/2017/02/batched-ui-test-runs.png" width="704" height="198" alt="Test suite run from the browser console" class /> Test suite run from the browser console[/caption]
 <br clear="all"/>
 
 Being able to rerun our tests from the console helps to speed the manual write/refresh/check loop significantly.  Of course, this is also no longer just a manual process.  We have started relying on automated tests to speed our job.
