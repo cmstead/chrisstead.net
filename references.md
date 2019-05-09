@@ -57,5 +57,5 @@ introduction is rather unexciting. Without further ado, bring on the links!
 <ul>
     <li><a href="http://blog.codinghorror.com/code-smells/" target="_blank">Code Smells - Jeff Atwood</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Code_smell" target="_blank">Code Smells - Wikipedia</a></li>
-    <li><a href="https://www.thc.org/root/phun/unmaintain.html" target="_blank">How to Write Unmaintainable Code - Humor Article</a></li>
+    <li><a href="https://github.com/Droogans/unmaintainable-code" target="_blank">How to Write Unmaintainable Code - Humor Article</a></li>
 </ul>
