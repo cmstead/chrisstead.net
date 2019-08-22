@@ -4,7 +4,7 @@ title:  "I Value People -- My Interpersonal Values"
 date:   2019-08-20 23:00:00 -0700
 categories: Coding, Javascript
 ---
-{% raw %}
+
 There are many people who would likely say I don't handle some social sitations with the utmost grace, and they wouldn't be wrong. I'm human and my emotions can get the better of me more often than I would like. Nevetheless there are interpersonal values I hold dear as I work with other people in the day-to-day.
 
 During the time I worked with Jason Kerney and Willem Larsen, we sunk a fair amount of effort into discovering better ways to work together.  Over time we ran many experiments and had varied results.
