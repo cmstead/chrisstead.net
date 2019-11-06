@@ -38,6 +38,14 @@ You'll note we spent a lot of time talking about communication in this section. 
 
 ## Integrate Late ##
 
+**Edit**
+
+I received some questions and I wanted to provide direct insight. This integration is NOT with regard to the practice of continuous integration (CI).  Keeping code outside of your CI pipeline can lead to tremendous challenges and pain.
+
+Instead it can be viewed as code which exists along-side the rest of the working software source, under test. The integration is simply the introduction into the user-accessible flow of the application. Consider late integration in this case as an airgapped feature.
+
+**/Edit**
+
 New features, regardless of where you are in the product lifecycle, go through a process of discovery, development, and iteration. All of this is best done outside the flow of the current system. Ideally, the current software is in production and providing value to users. We want to cause as little disruption as possible to the current software as we introduce new behaviors.
 
 When working in a legacy system, the idea of working outside of the primary released software is even more important since there is a lot of risk associated with modifying existing code. Often, even small changes in a legacy system have wide-reaching consequences, so care is critical.
