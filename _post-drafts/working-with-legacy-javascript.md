@@ -8,11 +8,6 @@ What we're going to talk about:
 
 - Defining legacy code
 
-- Adding new features (TIP method)
-  - Test expectations first
-  - Integrate late
-  - Pure behaviors by default
-
 - Managing existing code
   - Creating vice tests
   - Isolating pure behaviors
