@@ -34,3 +34,18 @@ We can look elsewhere to get more perspective on this as well. Regardless of wha
 
 Considering RDML Hopper's aims in creating a compiler, and Bob Martin's claims about reading versus writing code, it seems reasonable to claim that source code is purpose-built to be read, edited and understood by people.
 
+## Optimizing Development For People ##
+
+Since code is for people, and the problems being solved are, likewise, for people, the development process should also reflect the human aspect of the job, over any machine involved in the process. Computers are, necessarily, created and devised to execute computations for people. We spend an awful lot of time worrying about whether something can be done by a computer when the question would probably be better posed as "does anyone want or need this?"
+
+If we think about performance characteristics of a piece of code, it is easy to fall down a hole and talk about shaving microseconds from execution time. This kind of thinking is particularly useful if the same piece of code is going to be run tens of thousands of times. What if the code is designed to be run only once? Are we getting value from optimizing a few microseconds, or milliseconds from the run time?
+
+Probably not.
+
+Execution optimization is for people. The length of time it takes for something to happen is only interesting when it matters to people. This means we, as developers, can focus more of our time asking whether the work we are doing matters to the people who will be using the software we are creating. By focusing on the value to people, we can actually reframe our entire development process to center on people.
+
+So, what does people-optimized work look like?
+
+The very first thing we need to focus on during the process of software development is the people who are interested in the creation of the software, and the people who are actively involved in the process of creating that software. By re-centering on people we need to ask what is most important to people day to day.
+
+People are social creatures, who are emotionally motivated, and have high-powered brains which allow us to engage in active problem solving and pattern recognition. Of the three things I listed, two are based on feeling. Moreover people are more inclined to react emotionally first rather than rationally.
