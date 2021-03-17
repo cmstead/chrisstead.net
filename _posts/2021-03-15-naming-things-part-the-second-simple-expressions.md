@@ -102,7 +102,7 @@ Something that commonly happens when I start doing this kind of refactoring work
 
 The next time you find yourself reading a line full of operators and chained expressions, consider adding a name in there. You might just save your own skin in the future.
 
-_References_
+**_References_**
 
 1. "Naming Things Part the First, Or Magic Primitives" ([http://chrisstead.net/programming/human-centered-source/design/names/2021/02/22/naming-things-part-the-first-magic-primitives.html](http://chrisstead.net/programming/human-centered-source/design/names/2021/02/22/naming-things-part-the-first-magic-primitives.html))
 2. "First 2 Words: A Signal for the Scanning Eye" ([https://www.nngroup.com/articles/first-2-words-a-signal-for-scanning/](https://www.nngroup.com/articles/first-2-words-a-signal-for-scanning/))
