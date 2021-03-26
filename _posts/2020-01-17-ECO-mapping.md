@@ -5,7 +5,7 @@ date:   2020-01-17 00:00:00 -0800
 categories: 
 ---
 
-I started writing a long, wordy post all about ECO mapping, how it works, why you should use id, and the entire process of generating the map from the top, down. It was WAY too much.
+I started writing a long, wordy post all about ECO mapping, how it works, why you should use it, and the entire process of generating the map from the top, down. It was WAY too much.
 
 Instead, I want to introduce you to ECO mapping from the bottom.  I'll follow Kurt Vonnegut's advice and start as close to the end of the story as I can.
 
