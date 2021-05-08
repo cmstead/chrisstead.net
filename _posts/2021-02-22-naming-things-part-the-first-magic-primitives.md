@@ -11,7 +11,7 @@ Something I learned about years ago, and I continually preach is names. I could 
 
 I worked with a couple of other developers who, in my estimation, are some of the finest damn folks I've had the pleasure of working with. During our time together we explored a number of ideas, and ran lots of experiments. One of these experiments was applying the "Seven Stages of Naming" as designed by Arlo Belshee, and run through our own personal filters.
 
-We chose to work on the Tennis Kata, which, if you're not familiar with it, is a wall of text, a couple of simple tests, and the rules: refactor the code, don't break the tests.
+We chose to work on the Tennis Kata, which, if you're not familiar with it, is a wall of text, a couple of simple tests, and the rules: refactor the code, don't break the tests.<!--more-->
 
 This left us a lot of room to experiment, so we went for it. We did silly things like the following:
 

@@ -9,7 +9,7 @@ I read an article the other day (which I will not cite, due to unsupported claim
 
 I also read an opinion piece not so long ago that states programming languages are not languages and cannot be treated as such. Though they are not languages in the anthropological sense, they may still function as languages within the context of communicating information about a problem, and a solution.
 
-Regarding each of these articles on their own, I only have more questions. Nevertheless, I plan to ask them here, and explore a different idea regarding what the language of software might actually be.
+Regarding each of these articles on their own, I only have more questions. Nevertheless, I plan to ask them here, and explore a different idea regarding what the language of software might actually be.<!--more-->
 
 ## MIT Neuroscientists and Programming ##
 

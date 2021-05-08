@@ -16,7 +16,7 @@ This actually happened. The first person is me, and the second person is someone
 
 Every once in a while something comes around which reminds me of this interchange. Me, talking to myself about interfaces, the other person interrupting my conversation with myself.
 
-So, here's the deal: not every programming language has interfaces. Even object oriented languages don't have interfaces.
+So, here's the deal: not every programming language has interfaces. Even object oriented languages don't have interfaces.<!--more-->
 
 ## WAT ##
 

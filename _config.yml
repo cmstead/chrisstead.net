@@ -1,4 +1,4 @@
-title: Chris Stead -- Web, The Universe, and Everything
+title: Chris Stead -- Software, Centered on Humans
 author: Chris Stead
 email: cmstead@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -34,5 +34,5 @@ plugins:
  - jekyll-paginate
  - jekyll-sitemap
 
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"

@@ -9,7 +9,7 @@ categories: programming human-centered-source design names
 
 Though naming primitives<sup>1</sup> is a nice way to start spotting repeated values in your code, I believe naming really starts coming into its own when you start naming simple expressions. This can serve as the foundation for the actual communication work your source code will do for the next developer.
 
-I've found, in my wanderings through other people's code, that naming simple expressions tells me a lot about what is really happening in the source code itself. Some of the earliest wins I have gotten were related to names I have applied to conditional blocks, and flow control more generally.
+I've found, in my wanderings through other people's code, that naming simple expressions tells me a lot about what is really happening in the source code itself. Some of the earliest wins I have gotten were related to names I have applied to conditional blocks, and flow control more generally.<!--more-->
 
 Suppose we came across this code in a source document somewhere:
 

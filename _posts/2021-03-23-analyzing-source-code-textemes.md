@@ -15,7 +15,7 @@ Jessica Kerr leans into Nora Bateson's concept of **_symmathesy_**<sup>2</sup>, 
 
 There are numerous tools, and likely near-infinite approaches to developing an effective group working symmathesistically, however, it seemed most reasonable to lean into something I already understood: the **_metastructure_**<sup>3</sup> of programming languages.
 
-I ended up pulling a thread and landing squarely at the intersection of programming languages, communication, and linguistics. There are a number of reasons why any programming languages, as a core set of syntactic rules, would not be considered a language in isolation. On the other hand, when we consider the way programming languages are used by people, and the novel structures that emerge, it looks less like machine-generated commands, and more like the way people actually communicate.
+I ended up pulling a thread and landing squarely at the intersection of programming languages, communication, and linguistics. There are a number of reasons why any programming languages, as a core set of syntactic rules, would not be considered a language in isolation. On the other hand, when we consider the way programming languages are used by people, and the novel structures that emerge, it looks less like machine-generated commands, and more like the way people actually communicate.<!--more-->
 
 Of course one of the largest hurdles I had to overcome was the notion that any language would be necessarily spoken. Even considering **_code phonology_**<sup>4</sup>, there is no uniform approach to truly reading code. This is, in my best estimation, due to the fact that reading code aloud is more an interpretive activity than a one-to-one conversion of written work to spoken words.
 

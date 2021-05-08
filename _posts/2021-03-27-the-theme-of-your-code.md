@@ -11,7 +11,7 @@ There are many more patterns than those laid out in "Design Patterns", but the i
 
 On the other hand, when looking at source code line-by-line, people often fall back to naming as a primary design strategy, and follow the convention of "put your variables as close to their use as possible". Though this strategy makes sense contextually, since you can see the variable declared and defined near the use of the value.
 
-Where we land when following common rules of thumb and patterns is a mix of large chunks of design, and small clusters of variables followed by use. This code is arguably better than code in which no design choices were made. However, we are overlooking a critical aspect of communicating in our code.
+Where we land when following common rules of thumb and patterns is a mix of large chunks of design, and small clusters of variables followed by use. This code is arguably better than code in which no design choices were made. However, we are overlooking a critical aspect of communicating in our code.<!--more-->
 
 ## Semantic Well-Ordering, Coherence, and Thematic Grouping ##
 

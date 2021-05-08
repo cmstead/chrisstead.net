@@ -9,7 +9,7 @@ categories: programming human-centered-source design names
 
 When looking for the right name for something you can end up with a pretty long name. In part 2, we looked at capturing conditional context by extracting a simple expression, but the name was pretty long.
 
-Long names can be problematic for code **_scannability_**. We can work to move the most important words to the front of the variable name, but once a name gets long enough, it begins to contribute to the wall of text we are working so hard to reduce.
+Long names can be problematic for code **_scannability_**. We can work to move the most important words to the front of the variable name, but once a name gets long enough, it begins to contribute to the wall of text we are working so hard to reduce.<!--more-->
 
 We can actually see this with the first name example in our sample code.
 
