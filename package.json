@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/cmstead/chrisstead.net#readme",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "xml2js": "^0.4.19"
   }
 }
