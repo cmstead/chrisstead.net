@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 'Chris Stead: Chris vs. Software Dev'
 subtitle: ''
-description: ''
+description: 'Chris Stead navel gazes on a lot of time spent in the software world'
 keywords:
-author: John Doe
+author: Chris Stead
 language: en
-timezone: ''
+timezone: 'US/Pacific'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://chrisstead.net
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
