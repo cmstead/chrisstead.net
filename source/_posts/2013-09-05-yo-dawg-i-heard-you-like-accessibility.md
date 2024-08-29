@@ -2,7 +2,10 @@
 layout: post
 title:  "Yo dawg, I heard you like accessibility..."
 date:   2013-09-05 15:33:00 -0700
-categories: Coding, Javascript, User Experience
+categories:
+    - Coding
+    - Javascript
+    - User Experience
 ---
 {% raw %}
 So I put accessibility in your menus so your users can use your site even if they are disabled.

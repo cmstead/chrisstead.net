@@ -2,7 +2,11 @@
 layout: post
 title:  "Data, Types, Objects and Creating A New Generic Type"
 date:   2015-10-21 12:43:57 -0700
-categories: Coding, Data Structures, Foundation, Javascript
+categories:
+    - Coding
+    - Data Structures
+    - Foundation
+    - Javascript
 ---
 {% raw %}
 Javascript comes with a variety of types, and with ES 2015 and beyond, we are seeing new types emerge like sets and symbols.  The primitive data types come with a standard set of comparison rules and default behaviors which make them especially nice to work with, however, complex data like arrays and objects are not so friendly. Objects have no means for comparison (unsurprising) and arrays have no simple, idiomatic way to distinguish them from objects. Even null, which is referred to as a primitive data type, can lie to us.  See the example below.

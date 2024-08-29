@@ -2,7 +2,11 @@
 layout: post
 title:  "Mapping the Course: XML Sitemaps"
 date:   2010-02-02 09:00:14 -0800
-categories: Internet Culture, SEO, Site Architecture, World Wide Weird
+categories:
+    - Internet Culture
+    - SEO
+    - Site Architecture
+    - World Wide Weird
 ---
 {% raw %}
 I just read a short, relatively old blog post by David Naylor regarding why he believes <a href="http://www.davidnaylor.co.uk/why-an-xml-sitemap-is-bad.html" target="_blank">XML sitemaps are bad</a>. People involved with SEO probably know and recognize the name.  I know I did.  I have to disagree with his premise, but agree with his argument.

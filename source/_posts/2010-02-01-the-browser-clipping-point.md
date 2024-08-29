@@ -2,7 +2,11 @@
 layout: post
 title:  "The Browser Clipping Point"
 date:   2010-02-01 09:00:15 -0800
-categories: General Blogging, Internet Culture, User Experience, World Wide Weird
+categories:
+    - General Blogging
+    - Internet Culture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 Today, at the time of this writing, <a href="http://googleenterprise.blogspot.com/2010/01/modern-browsers-for-modern-applications.html" target="_blank">Google posted a blog</a> stating they were dropping support for old browsers. They stated:

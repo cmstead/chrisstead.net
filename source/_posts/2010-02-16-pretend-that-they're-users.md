@@ -2,7 +2,9 @@
 layout: post
 title:  "Pretend that they're Users"
 date:   2010-02-16 09:00:32 -0800
-categories: Coding, User Experience
+categories:
+    - Coding
+    - User Experience
 ---
 {% raw %}
 Working closely with the Creative team, as I do, I have the unique opportunity to consider user experience through the life of the project. More than many engineers, I work directly with the user.  Developing wireframes, considering information architecture and user experience development all fall within my purview.

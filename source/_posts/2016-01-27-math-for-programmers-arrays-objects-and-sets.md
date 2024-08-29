@@ -2,7 +2,14 @@
 layout: post
 title:  "Math for Programmers: Arrays, Objects and Sets"
 date:   2016-01-27 08:00:03 -0800
-categories: Algorithms, Applied Math, Coding, Data Structures, Foundation, Functional Programming, Javascript
+categories:
+    - Algorithms
+    - Applied Math
+    - Coding
+    - Data Structures
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 I've had conversations with a programmers with varied backgrounds and experience levels. One thing which has come up in several conversations is math, and how much math a programmer needs to be effective. I have a formal background in math, so I tend to lean heavily on the side of more math is better. Other programmers argue that only select topics in math are important to make a professional programmer effective.

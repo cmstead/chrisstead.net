@@ -2,7 +2,9 @@
 layout: post
 title:  "Inflexible XML data structures"
 date:   2008-01-04 15:53:41 -0800
-categories: Coding, Site Architecture
+categories:
+    - Coding
+    - Site Architecture
 ---
 {% raw %}
 Happy new year! Going into the start of the new year, I have a project that has carried over from the moment I started my current job. I am working on the information architecture and interaction design of a web-based insurance tool. Something that I have run into recently is a document structure that was developed using XML containers. This, in and of itself, is not an issue. XML is a wonderful tool for dividing information up in a useful way. The problem lies in how the system is implemented. This, my friends, is where I ran into trouble with a particular detail in this project. Call it the proverbial bump in the road.

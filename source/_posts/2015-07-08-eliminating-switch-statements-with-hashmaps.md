@@ -2,7 +2,12 @@
 layout: post
 title:  "Eliminating Switch Statements with Hashmaps"
 date:   2015-07-08 10:00:58 -0700
-categories: Code Smells, Coding, Design Patterns, Foundation, Javascript
+categories:
+    - Code Smells
+    - Coding
+    - Design Patterns
+    - Foundation
+    - Javascript
 ---
 {% raw %}
 It has been a really, really long time since I created a switch statement. I'm not saying there is no place for switch statements in programming, I'm just saying, I haven't had a reason to use one in a long time. Even though I haven't written a switch in a long time, I have seen them popping up in code examples at work, online and other places a lot lately.

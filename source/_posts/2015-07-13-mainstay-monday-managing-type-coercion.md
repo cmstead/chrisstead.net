@@ -2,7 +2,11 @@
 layout: post
 title:  "Mainstay Monday: Managing Type Coercion"
 date:   2015-07-13 10:00:11 -0700
-categories: Coding, Foundation, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 If you are new to programming and, especially, to a dynamically typed language like Javascript you are likely not familiar with <a href="https://en.wikipedia.org/wiki/Type_conversion" target="_blank">type coercion</a>.  The best way to think about type coercion is, when dealing with two values of different types, the two variables will be normalized to a single variable type for the sake of comparison or other common interaction. The important thing to understand with type coercion is the <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)" target="_blank">language interpreter</a> or <a href="https://en.wikipedia.org/wiki/Just-in-time_compilation" target="_blank">just in time compiler (JIT)</a> will guess what the type is that you meant to work with and do the "right thing" with it.

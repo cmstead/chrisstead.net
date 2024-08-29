@@ -2,7 +2,13 @@
 layout: post
 title:  "Degrading Behavior: Graceful Integration"
 date:   2010-02-26 09:00:26 -0800
-categories: Coding, CSS, Javascript, SEO, Site Architecture, User Experience
+categories:
+     - Coding
+     - CSS
+     - Javascript
+     - SEO
+     - Site Architecture
+     - User Experience
 ---
 {% raw %}
 There has been a lot of talk about graceful degradation.  In the end it can become a lot of lip service.  Often people talk a good talk, but when the site hits the web, let's just say it isn't too pretty.

@@ -2,7 +2,10 @@
 layout: post
 title:  "Website Overhaul 12-Step Program"
 date:   2010-02-22 09:00:55 -0800
-categories: Site Architecture, User Experience, World Wide Weird
+categories:
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 Suppose you've been tasked with overhauling your company website.  This has been the source of dread and panic for creative and engineering teams the world over.

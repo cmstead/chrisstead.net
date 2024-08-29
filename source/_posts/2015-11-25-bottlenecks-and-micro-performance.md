@@ -2,7 +2,14 @@
 layout: post
 title:  "Bottlenecks and Micro-Performance"
 date:   2015-11-25 08:00:15 -0800
-categories: Algorithms, Code Smells, Coding, Design Patterns, Functional Programming, General Blogging, Javascript
+categories:
+    - Algorithms
+    - Code Smells
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 After my last blog, I got a response regarding functional programming and performance. This is actually a common theme when people talk about functional programming versus imperative programming. Before we move into the actual performance discussion, I will openly admit, there are often times when functional programming is slower, performance-wise, than imperative programming. I have never claimed otherwise, nor will I begin doing so today.

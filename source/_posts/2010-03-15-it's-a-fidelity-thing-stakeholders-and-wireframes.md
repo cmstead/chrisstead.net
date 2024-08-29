@@ -2,7 +2,10 @@
 layout: post
 title:  "It's a Fidelity Thing: Stakeholders and Wireframes"
 date:   2010-03-15 10:17:32 -0700
-categories: Internet Culture, Site Architecture, World Wide Weird
+categories:
+    - Internet Culture
+    - Site Architecture
+    - World Wide Weird
 ---
 {% raw %}
 This morning I read a post about <a href="http://uxmag.com/design/where-wireframes-are-concerned" target="_blank">wireframes and when they are appropriate</a>.  Though I agree, audience is important, it is equally important to hand the correct items to the audience at the right times.  This doesn't mean you shouldn't create wireframes.

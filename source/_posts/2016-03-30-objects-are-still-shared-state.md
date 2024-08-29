@@ -2,7 +2,13 @@
 layout: post
 title:  "Objects Are Still Shared State"
 date:   2016-03-30 09:00:12 -0700
-categories: Code Smells, Coding, Data Structures, Design Patterns, Functional Programming, Javascript
+categories:
+    - Code Smells
+    - Coding
+    - Data Structures
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Dear programmers coming from Classical Object Oriented programming, please stop thinking that encapsulation of variables eliminates the "globalness" of your variable. It's a hard truth, but you had to hear it from someone; you have a problem. Consider this an intervention.

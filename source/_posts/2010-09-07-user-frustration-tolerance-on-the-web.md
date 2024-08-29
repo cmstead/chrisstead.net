@@ -2,7 +2,10 @@
 layout: post
 title:  "User Frustration Tolerance on the Web"
 date:   2010-09-07 09:00:49 -0700
-categories: Site Architecture, User Experience, World Wide Weird
+categories:
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 I have been working for quite a while to devise a method for assessing web sites and the ability to provide two things. First, I want to assess the ability for a user to perform an action they want to perform.  Second I want to assess the ability for the user to complete a business goal while completing their own goals.

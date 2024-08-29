@@ -2,7 +2,11 @@
 layout: post
 title:  "Naming Things Part the First, or Magic Primitives"
 date:   2021-02-22 00:00:00 -0800
-categories: programming human-centered-source design names
+categories:
+  - programming
+  - human-centered-source
+  - design
+  - names
 ---
 
 Something I learned about years ago, and I continually preach is names. I could (and likely will) write at length about the hows and whys. I will, however, begin with a short story.

@@ -2,7 +2,11 @@
 layout: post
 title:  "Naming Things, Part 4: Classes as Context"
 date:   2021-04-29 00:00:00 -0800
-categories: programming human-centered-source design names
+categories: 
+  - programming
+  - human-centered-source
+  - design
+  - names
 ---
 >This is part 4 of a multi-part series on naming things. [part three will be useful](http://chrisstead.net/programming/human-centered-source/design/names/2021/03/25/naming-things-part-3-using-methods-for-context.html)
 

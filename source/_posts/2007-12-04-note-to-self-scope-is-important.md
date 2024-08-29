@@ -2,7 +2,9 @@
 layout: post
 title:  "Note to self, scope is important."
 date:   2007-12-04 21:30:20 -0800
-categories: Coding, Javascript
+categories: 
+    - Coding
+    - Javascript
 ---
 {% raw %}
 Being that this was an issue just last evening, I thought I would share something that I have encountered when writing Javascript scripts.  First of all, let me state that Javascript syntax is extremely forgiving.  You can do all kinds of  unorthodox declarations of variables as well as use variables in all kinds of strange ways.  You can take a variable, store a string in it, then a number, then an object and then back again.  Weakly typed would be the gaming phrase.  The one thing that I would like to note, as it was my big issue last evening, is scope of your variables.  So long as you are careful about defining the scope of any given variable then you are ok, if not, you could have a problem just like I did.  So, let's start with scope and how it works.

@@ -2,7 +2,10 @@
 layout: post
 title:  "What If Interfaces... But Not?"
 date:   2021-03-18 00:00:00 -0800
-categories: object-oriented programming design-patterns
+categories:
+  - object-oriented
+  - programming
+  - design-patterns
 ---
 
 Imagine this scenario:

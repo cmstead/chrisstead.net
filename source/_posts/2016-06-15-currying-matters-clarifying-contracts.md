@@ -2,7 +2,11 @@
 layout: post
 title:  "Currying Matters: Clarifying Contracts"
 date:   2016-06-15 09:00:06 -0700
-categories: Coding, Design Patterns, Functional Programming, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Function contracts are a tricky thing.  Ultimately what they define is an API for your application, but they also define how you write your internal behaviors. This balancing act can either lead to clear, well written code, or it can quickly devolve into ball of tangled string.

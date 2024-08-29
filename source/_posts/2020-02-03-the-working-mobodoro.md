@@ -2,7 +2,12 @@
 layout: post
 title:  "The Working Mobodoro"
 date:   2020-02-03 00:00:00 -8:00
-categories: mob-programming mobbing mobodoro agile xp
+categories:
+  - mob-programming
+  - mobbing
+  - mobodoro
+  - agile
+  - xp
 ---
 
 I've heard of several teams programming in mobs using the concept of the mobodoro.  I believe in the notion of parallel development, so I'm not going to claim I am the sole inventor or coiner of the term, though I believe I introduced it at my current department.  Instead, I want to share my personal discovery of the mobodoro and how it developed in the mobs I've worked with.

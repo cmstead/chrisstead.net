@@ -2,7 +2,11 @@
 layout: post
 title:  "Code Smells - Conditional Obsession"
 date:   2015-07-29 09:00:29 -0700
-categories: Code Smells, Coding, Foundation, Javascript
+categories:
+    - Code Smells
+    - Coding
+    - Foundation
+    - Javascript
 ---
 {% raw %}
 Jeff Atwood of Stack Exchange and Coding Horror fame wrote a post quite a long time ago about <a href="http://blog.codinghorror.com/code-smells/" target="_blank">code smells</a> and what they mean. A couple weeks ago, I discussed <a href="http://www.chrisstead.net/archives/759/eliminating-switch-statements-with-hashmaps/" target="_blank">eliminating switch statements using hashmaps</a>. In that post, I introduced a new code smell that I want to discuss in a little more depth - conditional obsession.

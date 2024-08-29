@@ -2,7 +2,11 @@
 layout: post
 title:  "Types, Sets and Characteristics"
 date:   2016-06-22 09:00:46 -0700
-categories: Coding, Functional Programming, Javascript, Types
+categories:
+    - Coding
+    - Functional Programming
+    - Javascript
+    - Types
 ---
 {% raw %}
 A couple weeks ago, we looked at using Signet and some of the core types <a href="http://www.chrisstead.net/archives/1160/enforcing-endpoints-types-and-signet/" target="_blank">to add type information to function calls</a>. Although it is handy to have a variety of base types available to provide signatures for your functions, sometimes you want more control and finer-grained behavior.

@@ -2,7 +2,12 @@
 layout: post
 title:  "Five Things That Will Improve Your (Javascript) Code"
 date:   2015-09-16 09:00:47 -0700
-categories: Coding, Functional Programming, General Blogging, Javascript, Unit Testing
+categories:
+    - Coding
+    - Functional Programming
+    - General Blogging
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 I see lots of discussion around new frameworks, libraries and other odds and ends, which claim to make your code better, cleaner, easier to maintain, etc. Although frameworks are definitely useful for avoiding reinventing the wheel and libraries help clear out boilerplate you would have to litter your code with, the cake they offer of better code is a lie.

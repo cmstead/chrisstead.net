@@ -2,7 +2,10 @@
 layout: post
 title:  "Code Generation and You"
 date:   2015-09-09 09:00:12 -0700
-categories: Coding, Javascript, Unit Testing
+categories:
+    - Coding
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 A friend of mine and I have discussed code generation on several occasions. We both agree that any enterprise development process should involve code generation, without exception. Though it is possible for development from scratch may not provide enough identifiable boilerplate to justify building templates for your code, the moment a framework is in use, you will, undoubtedly, have a certain amount of boilerplate introduced which must be set up repeatedly for each new file you create.

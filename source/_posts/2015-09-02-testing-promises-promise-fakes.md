@@ -2,7 +2,11 @@
 layout: post
 title:  "Testing Promises: Promise Fakes"
 date:   2015-09-02 09:00:12 -0700
-categories: Coding, Design Patterns, Javascript, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 Javascript developers notoriously say unit testing in hard. I think the problem is actually more specific than that. Unit testing pure functions and business logic actually pretty easy.You put a value in, you get a value out. If the value you get back is what you expected, your test passes. Something that is hard to unit test is asynchronous logic.

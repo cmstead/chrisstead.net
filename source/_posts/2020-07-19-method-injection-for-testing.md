@@ -2,7 +2,10 @@
 layout: post
 title:  "Method Injection for Testing"
 date:   2020-07-19 00:00:00 -0800
-categories: testing legacy-code javascript
+categories:
+  - testing
+  - legacy-code
+  - javascript
 ---
 
 There is certainly more legacy code in this world than any other kind of code. I say this with only anecdotal evidence, but given the amount of time people have been writing software, the amount of time people have been creating new software, and the number of people who talk about the pains and repairs of legacy code, it seems reasonable to assume that legacy code is out there in abundance.

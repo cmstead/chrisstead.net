@@ -2,7 +2,11 @@
 layout: post
 title:  "Everyday Functional Programming in Javascript"
 date:   2015-05-27 15:54:38 -0700
-categories: Coding, Functional Programming, Javascript, Site Architecture
+categories:
+    - Coding
+    - Functional Programming
+    - Javascript
+    - Site Architecture
 ---
 {% raw %}
 I gave a talk at the beginning of the year about <a href="http://www.chrisstead.net/presentations/functionaljs/#/1" target="_blank">functional programming</a>. Someone asked "can you do functional programming little by little or do you have to do it all, all the time?"

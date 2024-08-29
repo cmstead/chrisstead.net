@@ -2,7 +2,12 @@
 layout: post
 title:  "Callback Streams With Function Decoration"
 date:   2015-10-07 09:00:02 -0700
-categories: Code Smells, Coding, Design Patterns, Functional Programming, Javascript
+categories:
+    - Code Smells
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Regardless of whether you prefer raw callbacks or promises, there comes a time where asynchronous behavior pops up in your application. It's an artifact of working on the web and working with Javascript. This means that, although a function was originally written to solve a particular problem, eventually that function may need to be extended.  If we follow the <a href="http://www.chrisstead.net/archives/813/mainstay-monday-solid-openclosed-principle/" target="_blank">open/closed principle</a>, we should not modify the original function since it almost certainly still solves the original problem for which it was designed. What to do...

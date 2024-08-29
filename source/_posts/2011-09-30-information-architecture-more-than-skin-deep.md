@@ -2,7 +2,11 @@
 layout: post
 title:  "Information Architecture: More than Skin Deep"
 date:   2011-09-30 14:46:32 -0700
-categories: Coding, Internet Culture, Site Architecture, User Experience
+categories:
+    - Coding
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Most of what I have seen on the web regarding Information Architecture has been related, primarily, to what the user sees and interacts with directly.  This means, what users see, and how the site is, ultimately, hierarchically constructed.  Very little consideration is given for what is ACTUALLY going on with the site.<!--more-->

@@ -2,7 +2,8 @@
 layout: post
 title:  "A Case for Quickspec"
 date:   2017-10-02 09:00:33 -0700
-categories: General Blogging
+categories:
+    - General Blogging
 ---
 {% raw %}
 Any software community has a contingent which agrees that tests are a good thing and testing first leads us to a place of stable, predictable software.  With this in mind, the biggest complaint I've heard from people is "testing takes too long!"

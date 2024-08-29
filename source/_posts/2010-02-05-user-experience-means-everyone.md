@@ -2,7 +2,12 @@
 layout: post
 title:  "User Experience Means Everyone"
 date:   2010-02-05 09:00:12 -0800
-categories: ASP.Net, Coding, Javascript, Site Architecture, User Experience
+categories:
+    - ASP.Net
+    - Coding
+    - Javascript
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 I've been working on a project for an internal client, which includes linking out to various medical search utilities.  One of the sites we are using as a search provider offers pharmacy searches.  The site was built on ASP.Net technology, or so I would assume as all the file extensions are 'aspx.'  I bring this provider up because I was shocked and appalled by their disregard for the users that would be searching.

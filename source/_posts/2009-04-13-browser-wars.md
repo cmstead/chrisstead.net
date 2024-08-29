@@ -2,7 +2,10 @@
 layout: post
 title:  "Browser Wars"
 date:   2009-04-13 16:58:43 -0700
-categories: Internet Culture, Site Architecture, User Experience
+categories:
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 It's been a while since I have posted. I know. For those of you that are checking out this blog for the first time, welcome. For those of you who have read my posts before, welcome back. We're not here to talk about the regularity (or lack thereof) that I post with. What we are here to talk about is supporting or not supporting browsers. So first, what inspired me to write this? Well... this:

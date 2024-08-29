@@ -2,7 +2,11 @@
 layout: post
 title:  "Creating Programmer Joy with Type Enforcement"
 date:   2017-12-29 10:22:13 -0800
-categories: Coding, Design Patterns, Javascript, Types
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Types
 ---
 {% raw %}
 It's extremely common for developers who work in statically typed languages to talk about how much easier their code is to maintain and that the code is self-documenting because of the type system.  However, these same programmers often talk about the amount of "ceremony" they have to overcome to work within the type system and language of their choice.  The ceremony issue seems to be reduced to zero within the Javascript community because of the dynamic type system.  On the other hand it is common to hear JS developers complain about the level of difficulty regarding maintaining a codebase which brought them so much joy while they were creating it.

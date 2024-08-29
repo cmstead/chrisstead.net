@@ -2,7 +2,10 @@
 layout: post
 title:  "An Open Letter to Single-Language Programmers"
 date:   2015-08-21 09:00:57 -0700
-categories: Coding, General Blogging, Javascript
+categories:
+    - Coding
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 I work with several programmers every day and I end up giving advice a lot.  Let's not discuss whether people are actually soliciting my advice, or not, but I give it regardless. This evening I started thinking about things I think every programmer should experience. There are lots of different topics that come to mind, including math, hardware, networking and so on.  One thing that keeps coming back to me, though, is languages.

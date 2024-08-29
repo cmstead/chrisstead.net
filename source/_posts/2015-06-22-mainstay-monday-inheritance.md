@@ -2,7 +2,11 @@
 layout: post
 title:  "Mainstay Monday: Inheritance"
 date:   2015-06-22 10:00:50 -0700
-categories: Coding, Foundation, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 This is the first in a new series I am trying out on my blog.  Every Monday I want to provide a post about some foundational element of programming and how it relates to Javascript development. What better place to start than inheritance?

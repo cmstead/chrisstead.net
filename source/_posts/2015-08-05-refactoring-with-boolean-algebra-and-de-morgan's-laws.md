@@ -2,7 +2,12 @@
 layout: post
 title:  "Refactoring with Boolean Algebra and De Morgan's Laws"
 date:   2015-08-05 09:00:38 -0700
-categories: Applied Math, Coding, Foundation, Functional Programming, Javascript
+categories:
+    - Applied Math
+    - Coding
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Many junior and mid-level programmers working today have opted to skip a university education and, instead, have either gone through an Associate's program or a coding bootcamp.  Some programmers started their career out of college without a formal background in CS, getting degrees in physics, biology, chemistry or even liberal arts like journalism or design. Although these developers may be quite effective, there are many topics that are core to the standard Computer Science curriculum which developers without a formal CS education may not have been exposed to.

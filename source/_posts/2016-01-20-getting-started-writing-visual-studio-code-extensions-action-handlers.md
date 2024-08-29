@@ -2,7 +2,10 @@
 layout: post
 title:  "Getting Started Writing Visual Studio Code Extensions: Action Handlers"
 date:   2016-01-20 16:19:50 -0800
-categories: General Blogging, Internet Culture, Javascript
+categories:
+    - General Blogging
+    - Internet Culture
+    - Javascript
 ---
 {% raw %}
 I started writing a Visual Studio Code extension about two and a half weeks ago and, as is little surprise, writing an extension with new, uncharted functionality takes more knowledge than you can find in the basic tutorial for creating a hello world extension. As I learned, I thought, I should write what I learned down so other people would have a little more illumination than I had.

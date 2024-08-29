@@ -2,7 +2,13 @@
 layout: post
 title:  "Mainstay Monday: SOLID - Dependency Inversion"
 date:   2015-08-24 09:00:43 -0700
-categories: Coding, Design Patterns, Javascript, Mainstay Monday, SOLID, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Mainstay Monday
+    - SOLID
+    - Unit Testing
 ---
 {% raw %}
 This post is part of a series on the <a href="http://www.chrisstead.net/archives/category/design-patterns/solid/" target="_blank">SOLID programming principles</a>.

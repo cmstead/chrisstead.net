@@ -2,7 +2,12 @@
 layout: post
 title:  "Moving Pieces: Organizing for a Website Overhaul"
 date:   2012-09-24 10:00:22 -0700
-categories: Coding, Company Culture, Content Strategy, Internet Culture, Project Management, SEO, Site Architecture, User Experience
+categories:
+    - Coding
+    - Company Culture
+    - Content Strategy
+    - Internet Culture
+    - Project Management, SEO, Site Architecture, User Experience
 ---
 {% raw %}
 I've read several different books and articles about web projects and how to make sense of what needs to happen when.  Everyone has their own slant and it flavors how the entire process should go.  Meanwhile they hope the "magic" in another group is happening.

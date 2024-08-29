@@ -2,7 +2,11 @@
 layout: post
 title:  "Web Designers Rejoice: There is Still Room"
 date:   2010-09-28 10:01:00 -0700
-categories: General Blogging, Internet Culture, User Experience, World Wide Weird
+categories:
+    - General Blogging
+    - Internet Culture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 I'm taking a brief detour and talking about something other than user tolerance and action on your site.  I read a couple of articles, which you've probably seen yourself, and felt a deep need to say something.  Smashing Magazine published <i><a href="http://www.smashingmagazine.com/2010/09/24/does-the-future-of-the-internet-have-room-for-web-designers/" target="_blank">Does The Future Of The Internet Have Room For Web Designers?</a></i> and the rebuttal, <i><a href="http://www.smashingmagazine.com/2010/09/27/i-want-to-be-a-web-designer-when-i-grow-up/" target="_blank">I Want To Be A Web Designer When I Grow Up</a></i>, but something was missing.

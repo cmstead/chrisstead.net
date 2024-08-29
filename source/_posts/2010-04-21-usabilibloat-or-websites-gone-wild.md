@@ -2,7 +2,11 @@
 layout: post
 title:  "Usabilibloat or Websites Gone Wild"
 date:   2010-04-21 09:00:18 -0700
-categories: Coding, Site Architecture, User Experience, World Wide Weird
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 It's always great when you have the opportunity to built a site from the ground up.  You have opportunities to design things right the first time, and set standards in place for future users, designers and developers alike.  These are the good times.

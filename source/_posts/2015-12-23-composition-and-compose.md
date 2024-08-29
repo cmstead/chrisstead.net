@@ -2,7 +2,12 @@
 layout: post
 title:  "Composition and Compose"
 date:   2015-12-23 08:00:10 -0800
-categories: Algorithms, Applied Math, Coding, Functional Programming, Javascript
+categories:
+    - Algorithms
+    - Applied Math
+    - Coding
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 A while back we discussed composing functions together to blend behaviors and extend functions to solve more complex problems.  The discussion was all about composing two specific functions together.  In functional programming composing multiple functions together can actually be part and parcel of the entire new function.

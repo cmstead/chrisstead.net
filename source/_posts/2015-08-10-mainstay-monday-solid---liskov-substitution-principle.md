@@ -2,7 +2,12 @@
 layout: post
 title:  "Mainstay Monday: SOLID - Liskov Substitution Principle"
 date:   2015-08-10 09:00:39 -0700
-categories: Coding, Design Patterns, Javascript, Mainstay Monday, SOLID
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Mainstay Monday
+    - SOLID
 ---
 {% raw %}
 This post is part of a series on the <a href="http://www.chrisstead.net/archives/category/design-patterns/solid/" target="_blank">SOLID programming principles</a>.

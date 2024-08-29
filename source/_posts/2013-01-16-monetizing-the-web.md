@@ -2,7 +2,11 @@
 layout: post
 title:  "Monetizing the Web"
 date:   2013-01-16 10:00:02 -0800
-categories: Company Culture, Internet Culture, User Experience, World Wide Weird
+categories:
+    - Company Culture
+    - Internet Culture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 Today I read an article about Irish newspapers plotting to charge for linking to their content.  We've all heard about this before and people seem to get up in arms about it every single time it is mentioned.  I think this frustration and disgust are misplaced.

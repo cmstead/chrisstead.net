@@ -2,7 +2,10 @@
 layout: post
 title:  "REST Verbs and HTTP"
 date:   2015-11-11 08:00:10 -0800
-categories: Coding, Foundation, Javascript
+categories:
+    - Coding
+    - Foundation
+    - Javascript
 ---
 {% raw %}
 If your journey to programming was anything like mine, you started by looking at HTML forms to understand data transfer across HTTP. There is a lot of talk about REST and what it means on the web. I have heard people talk about the formatting of URLs and the return behavior of documents. I have even heard people discuss REST and its relation to micro-services or hypermedia API behaviors.

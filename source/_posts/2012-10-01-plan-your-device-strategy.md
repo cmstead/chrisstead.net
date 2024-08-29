@@ -2,7 +2,12 @@
 layout: post
 title:  "Plan Your Device Strategy"
 date:   2012-10-01 10:00:28 -0700
-categories: Content Strategy, Internet Culture, SEO, Site Architecture, User Experience
+categories:
+    - Content Strategy
+    - Internet Culture
+    - SEO
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 As mobile gains ever more ground and mobile first continues to be knocked around as the design strategy for the web, I encourage people to look at their use statistics.  Although mobile first is a great strategy if you don't have statistics to draw upon for your site, or your reorganization needs a mobile injection, nothing will serve you better than the statistics regarding what your user does on your site.

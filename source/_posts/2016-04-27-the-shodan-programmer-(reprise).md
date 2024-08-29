@@ -2,7 +2,8 @@
 layout: post
 title:  "The Shodan Programmer (Reprise)"
 date:   2016-04-27 09:00:35 -0700
-categories: General Blogging
+categories:
+    - General Blogging
 ---
 {% raw %}
 Quite some time ago, Michael O. Church wrote a blog post about the <a href="https://web.archive.org/web/20140716004341/https://michaelochurch.wordpress.com/2013/04/22/gervais-macleod-23-the-shodan-programmer/" target="_blank">Shodan Programmer</a> (beginning degree programmer, or journey beginning programmer).  In this post he detailed a gradient system for identifying programmers with regard to skill, experience and knowledge.  Two or three weeks ago, I discovered his post was either removed or his site had been deleted.  I'm not entirely sure what led to his Shodan post going MIA, but it was an important idea in the greater discussion of progressing skill and ability.

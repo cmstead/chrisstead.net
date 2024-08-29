@@ -2,7 +2,10 @@
 layout: post
 title:  "Javascript Refactoring and Visual Studio Code"
 date:   2016-01-13 08:00:10 -0800
-categories: Coding, General Blogging, Javascript
+categories:
+    - Coding
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 About a month ago, I started working at Hunter. Now, I have been pretty aware of refactoring, design patterns, good practices and common practices.  I don't always agree with what everyone else says or does, but I typically have a good reason to do it the way I do.  For whatever I do, Hunter does more so. I am a notorious function extractor and deduplicator, but never more than what I have seen or done in the last month, or until now.

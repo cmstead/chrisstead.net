@@ -2,7 +2,14 @@
 layout: post
 title:  "Math for Programmers: Difference of Sets"
 date:   2016-02-10 08:00:04 -0800
-categories: Algorithms, Applied Math, Coding, Data Structures, Foundation, Functional Programming, Javascript
+categories:
+    - Algorithms
+    - Applied Math
+    - Coding
+    - Data Structures
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Last post we discussed <a href="http://www.chrisstead.net/archives/1054/math-for-programmers-union-and-intersection/" target="_blank">union and intersection</a> of sets. These two functions are common and well used, so they are quite important to understand at a deep level, especially if you work with databases on the regular. It can also be helpful to understand these behaviors if you have lots of sets of simple data which need to be combined in a straightforward way.

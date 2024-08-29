@@ -2,7 +2,10 @@
 layout: post
 title:  "Callbacks, callbacks, callbacks!"
 date:   2015-05-18 10:25:37 -0700
-categories: Coding, Javascript, Site Architecture
+categories:
+    - Coding
+    - Javascript
+    - Site Architecture
 ---
 {% raw %}
 Waiter,

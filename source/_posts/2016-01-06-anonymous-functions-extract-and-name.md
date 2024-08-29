@@ -2,7 +2,13 @@
 layout: post
 title:  "Anonymous Functions: Extract and Name"
 date:   2016-01-06 08:00:52 -0800
-categories: Code Smells, Coding, Design Patterns, Functional Programming, Javascript, Unit Testing
+categories:
+    - Code Smells
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 It's really great to see functional patterns become more accepted since they add a lot of really powerful tools to any programmer's toolbox. Unfortunately, because functional programming was relegated primarily to the academic world for many years, there aren't as many professional programmers who have developed a strong feel for good patterns and share them with more junior programmers. This is not to say there are none, but it is important to note that most programmers think of functional programming and say "it has map, filter and reduce; it's functional."

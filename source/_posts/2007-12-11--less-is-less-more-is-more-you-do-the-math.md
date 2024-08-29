@@ -2,7 +2,9 @@
 layout: post
 title:  " Less is less, more is more. You do the math."
 date:   2007-12-11 15:48:02 -0800
-categories: Site Architecture, User Experience
+categories:
+    - Site-Architecture
+    - User-Experience
 ---
 {% raw %}
 By this I don't mean that you should fill every pixel on the screen with text, information and blinking, distracting graphics. What I really mean is that you should give yourself more time to accomplish what you are looking to do on the web. Sure, your reaction to this is going to be "duh, of course you should spend time thinking about what you are going to do online. All good jobs take time." I say, oh young one, are you actually spending time where it needs to be spent? I suspect you aren't.

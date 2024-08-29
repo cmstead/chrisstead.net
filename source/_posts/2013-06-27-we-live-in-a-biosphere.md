@@ -2,7 +2,10 @@
 layout: post
 title:  "We Live in a Biosphere"
 date:   2013-06-27 09:46:43 -0700
-categories: Internet Culture, Site Architecture, User Experience
+categories:
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 You may or may not be aware of this, but when we are interacting with an application, we are entering a biosphere. People always talk about suites of applications as being an ecosystem, but even within the constraints of single app, we are still interacting with a smaller, but equally important, ecosystem.

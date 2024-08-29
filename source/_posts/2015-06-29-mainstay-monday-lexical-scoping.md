@@ -2,7 +2,11 @@
 layout: post
 title:  "Mainstay Monday: Lexical Scoping"
 date:   2015-06-29 01:00:50 -0700
-categories: Coding, Functional Programming, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Functional Programming
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 Edit: I incorrectly stated that Javascript has dynamic scoping. It actually uses a mix of lexical scoping and contextual binding. Dynamic scoping is significantly different than contextual binding. This post has been updated to reflect correct information.

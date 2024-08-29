@@ -2,7 +2,12 @@
 layout: post
 title:  "Javascript: Require and Import Found Harmful"
 date:   2018-04-05 13:12:01 -0700
-categories: Code Smells, Design Patterns, General Blogging, Javascript, Testing
+categories:
+	- Code Smells
+	- Design Patterns
+	- General Blogging
+	- Javascript
+	- Testing
 ---
 {% raw %}
 For the moment, let's go ahead and make an assumption: automated tests (unit tests, integration tests, etc.) <a href="http://www.chrisstead.net/archives/1/hello-world/">make code safer</a> to write, update and change. Even if tests break, it says something about how the code was written and pulled together while running. I will address this concern in another post at a later date. Nevertheless, I am going to rely on this assumption throughout this post, so if you disagree with the initial assumption, you might be better served to drop out now.

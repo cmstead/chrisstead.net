@@ -2,7 +2,11 @@
 layout: post
 title:  "All in the Family: Filter, Map, Reduce, Recur"
 date:   2015-08-12 09:00:38 -0700
-categories: Coding, Foundation, Functional Programming, Javascript
+categories:
+    - Coding
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 In programming it is becoming more common to see functional patterns.  Filter, map and reduce are all discussed openly in programming circles that live far away from Lisp, Haskell, ML and other functional languages. It is common, in Javascript especially, to see these functions being misunderstood and misused. My goal is to uncover the relation between these functions and provide a really deep understanding of what is going on when these common functions are use correctly.

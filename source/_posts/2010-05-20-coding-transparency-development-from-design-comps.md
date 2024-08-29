@@ -2,7 +2,11 @@
 layout: post
 title:  "Coding Transparency: Development from Design Comps"
 date:   2010-05-20 14:12:54 -0700
-categories: Coding, Internet Culture, User Experience, World Wide Weird
+categories:
+    - Coding
+    - Internet Culture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 Since I am an engineer first and a designer second in my job, more often than not the designs you see came from someone else's comp.  Being that I am a designer second, it means that I know just enough about design to be dangerous but not enough to be really effective over the long run.

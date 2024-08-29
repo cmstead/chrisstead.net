@@ -2,7 +2,12 @@
 layout: post
 title:  "When SEO Goes Bad"
 date:   2010-07-06 14:22:01 -0700
-categories: Internet Culture, SEO, Site Architecture, User Experience, World Wide Weird
+categories:
+    - Internet Culture
+    - SEO
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 My last post was about finding a healthy balance between client- and server-side technology.  <a href="http://www.designbycandlelight.com/" target="_blank">My friend</a> sent me a link to an article about <a href="http://searchengineland.com/seo-implications-of-googles-reasonable-surfer-patent-44222" target="_blank">SEO and Google's "reasonable surfer" patent</a>.  Though the information regarding Google's methods for identifying and appropriately assessing useful links on a site was interesting, I am quite concerned about what the SEO crowd was encouraging because of this new revelation.

@@ -2,7 +2,9 @@
 layout: post
 title:  "Optimizing for the Developer: Mindful Intentionality"
 date:   2020-10-08 00:00:00 -0800
-categories: developer-practice work-optimization
+categories:
+    - developer-practice
+    - work-optimization
 ---
 
 I was listening to a podcast a while ago and a discussion came up regarding why leaves are green.  I found it fascinating. I'm neither a chemist nor a physicist, so I didn't realize that green light is the most energetic light.  I did, however, know that visible color is light which is reflected away from a surface.

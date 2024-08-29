@@ -2,7 +2,11 @@
 layout: post
 title:  "Enforcing Endpoints: Types and Signet"
 date:   2016-06-08 09:00:09 -0700
-categories: Coding, Design Patterns, Functional Programming, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 What a ride! I spent the last month preparing a talk for and presenting at Lambdaconf.  If you haven't been, you should. Of the conferences and coding-related events I have been to, this was probably the coolest, toughest, mind-bendiest one. It was awesome.  I learned a lot about myself while I was there and a lot about the world beyond the horizon of what we consider "conventional production development." More than that, it's all coming to a developer shop near you sooner than you think.

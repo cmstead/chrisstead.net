@@ -2,7 +2,12 @@
 layout: post
 title:  "Markdown: Content Isn't Just For Web"
 date:   2015-07-01 10:00:42 -0700
-categories: Coding, Design Patterns, HTML, Javascript, World Wide Weird
+categories:
+    - Coding
+    - Design Patterns
+    - HTML
+    - Javascript
+    - World Wide Weird
 ---
 {% raw %}
 A couple of my friends and I have the same conversation once or twice a month: How do you deal with content that could be displayed in any number of different devices?

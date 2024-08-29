@@ -2,7 +2,10 @@
 layout: post
 title:  "The Selection Correction"
 date:   2010-01-11 16:21:38 -0800
-categories: SEO, Site Architecture, User Experience
+categories:
+    - SEO
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 User self selection is a mess.  Let's get that out in the open first and foremost.  As soon as you ask the user questions about themselves directly, your plan has failed.  User self selection, at best, is a mess of splash pages and strange buttons.  The web has become a smarter place where designers and developers should be able to glean the information they need about the user without asking the user directly.

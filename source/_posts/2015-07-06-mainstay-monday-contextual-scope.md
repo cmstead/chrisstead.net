@@ -2,7 +2,11 @@
 layout: post
 title:  "Mainstay Monday: Contextual Scope"
 date:   2015-07-06 10:00:54 -0700
-categories: Coding, Foundation, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 Last week we kicked off a discussion of scope in source code. <a href="http://www.chrisstead.net/archives/735/mainstay-monday-lexical-scoping/" target="_blank">We talked about lexical scope</a> and how that impacts the way variables are accessed. There is another element of scoping called contextual binding, which is what gives people the most trouble.

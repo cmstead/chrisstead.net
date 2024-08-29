@@ -2,7 +2,10 @@
 layout: post
 title:  "Occam's Razor"
 date:   2008-01-10 15:55:33 -0800
-categories: Coding, Site Architecture, User Experience
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 I have a particular project that I work on every so often. It's actually kind of a meta-project as I have to maintain a web-based project queue and management system, so it is a project for the sake of projects. Spiffy eh? Anyway, I haven't had this thing break in a while which either means that I did such a nice, robust job of coding the darn thing that it is unbreakable (sure it is) or more likely, nobody has pushed this thing to the breaking point. Given enough time and enough monkeys. All of that aside, every so often, my boss comes up with new things that she would like the system to do, and I have to build them in. Fortunately, I built it in such a way that most everything just kind of "plugs in" not so much that I have an API and whatnot, but rather, I can simply build out a module and then just run an include and use it. Neat, isn't it?

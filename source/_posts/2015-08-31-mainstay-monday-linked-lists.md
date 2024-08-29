@@ -2,7 +2,12 @@
 layout: post
 title:  "Mainstay Monday: Linked Lists"
 date:   2015-08-31 09:00:26 -0700
-categories: Coding, Data Structures, Foundation, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Data Structures
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 Dear data structures, which of you is most useful? I don't know, but linked lists are pretty awesome. Linked lists are great for any number of things, a list of data that can be grown without bound, a data structure that can be incrementally increased, a queue or a stack. There are even more things that can be done with linked lists, but before we can dig into what can be done with a linked list, we need to understand what it even is.

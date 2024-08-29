@@ -2,7 +2,10 @@
 layout: post
 title:  "Know Thy Customer"
 date:   2010-08-17 14:02:42 -0700
-categories: Company Culture, General Blogging, World Wide Weird
+categories:
+    - Company Culture
+    - General Blogging
+    - World Wide Weird
 ---
 {% raw %}
 I've been tasked with an interesting problem: encourage the Creative department to migrate away from their current project tracking tool and into Jira.  For those of you unfamiliar with Jira, it is a bug tracking tool with a bunch of toys and goodies built in to help keep track of everything from hours to subversion check-in number.  From a developer's point of view, there are more neat things than you could shake a stick at.  From an outsider's perspective, it is a big, complicated and confusing system with more secrets and challenges than one could ever imagine.

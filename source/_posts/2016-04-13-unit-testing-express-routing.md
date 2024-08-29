@@ -2,7 +2,12 @@
 layout: post
 title:  "Unit Testing Express Routing"
 date:   2016-04-13 09:00:58 -0700
-categories: Coding, Design Patterns, General Blogging, Javascript, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - General Blogging
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 If you are unit testing your code, and you should be, then it is likely you have encountered certain patterns which make testing more difficult. One of the patterns which pops up often is centered around Express.js routes.  Although the router has a nice, simple API to code against, the actual testing of the route action code can be a little challenging if you aren't used to using tools such as mocks, fakes and stubs.

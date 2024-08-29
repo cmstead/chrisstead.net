@@ -2,7 +2,10 @@
 layout: post
 title:  "Thinking in Pieces: Modularity and Problem Solving"
 date:   2010-04-12 09:00:28 -0700
-categories: Coding, Site Architecture, User Experience
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 I am big on modularity.  There are lots of problems on the web to fix and modularity applies to many of them.  A couple of posts ago <a href="http://www.chrisstead.net/archives/276" target="_blank">I talked about content</a> and that it is all built on or made of objects.  The benefits from working with objectified content is the ease of updating and the breadth and depth of content that can be added to the site.

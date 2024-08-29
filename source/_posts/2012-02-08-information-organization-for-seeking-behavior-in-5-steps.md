@@ -2,7 +2,10 @@
 layout: post
 title:  "Information Organization for Seeking Behavior in 5 Steps"
 date:   2012-02-08 10:00:33 -0800
-categories: Coding, Site Architecture, User Experience
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Information comes in all shapes and sizes.  Some is simple.  It's copy that goes on a page. It's an image.  It's a sound file. It's a single PDF. It's whatever atomic piece of information you can imagine.  Then there is the molecular level, for instance, whole web pages with mixed content.  Then there is listed information: movie titles, collections of documents, retail products, animals with feathers, types of beer, whatever.

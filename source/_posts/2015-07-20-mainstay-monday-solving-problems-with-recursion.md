@@ -2,7 +2,12 @@
 layout: post
 title:  "Mainstay Monday: Solving Problems With Recursion"
 date:   2015-07-20 09:00:53 -0700
-categories: Coding, Foundation, Functional Programming, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Foundation
+    - Functional Programming
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 If you have been writing Javascript for any amount of time, you're sure to be familiar with standard loop structures. For and while blocks are part and parcel of the modern programming experience.  On the other hand, if you haven't done a data structures and algorithms course, you may not be familiar with the term recursion. Recursion is another methodology for handling repeated behavior, but it is useful for a completely different set of problems.

@@ -2,7 +2,9 @@
 layout: post
 title:  "Coder Joy - Exploring Joyfulness In Creating Software"
 date:   2018-02-26 09:00:45 -0800
-categories: Coding, General Blogging
+categories:
+	- Coding
+	- General Blogging
 ---
 {% raw %}
 A couple weeks ago, I attended <a href="http://www.chrisstead.net/archives/1/hello-world/">Agile Open Northwest</a>. As with every other Agile Open conference I attend there were plenty of eye-opening experiences. One experience which surprised me was actually a session I facilitated. I went in with a concept of where it would land and I was dead, flat wrong.

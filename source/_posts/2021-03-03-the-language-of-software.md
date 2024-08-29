@@ -2,7 +2,12 @@
 layout: post
 title:  "The Language of Software"
 date:   2021-03-03 00:00:00 -0800
-categories: programming programming-languages software development linguistics
+categories:
+  - programming
+  - programming-languages
+  - software
+  - development
+  - linguistics
 ---
 
 I read an article the other day (which I will not cite, due to unsupported claims) that stated reading source code is not like reading language. They cite this [article on an MIT study](https://www.sciencedaily.com/releases/2020/12/201215131236.htm) which states that reading code is not like reading language.

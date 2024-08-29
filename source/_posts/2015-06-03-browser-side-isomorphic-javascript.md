@@ -2,7 +2,10 @@
 layout: post
 title:  "Browser-side Isomorphic Javascript"
 date:   2015-06-03 10:00:18 -0700
-categories: Design Patterns, Javascript, Site Architecture
+categories:
+    - Design Patterns
+    - Javascript
+    - Site Architecture
 ---
 {% raw %}
 With the advent of Node, there has been discussion of isomorphic Javascript.  The general idea behind this is code written for server-side purposes can also be used for UI purposes. The problem with this notion is, it doesn't account for browser UI/middleware considerations in the browser.

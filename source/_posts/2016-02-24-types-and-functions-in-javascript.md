@@ -2,7 +2,13 @@
 layout: post
 title:  "Types and Functions in Javascript"
 date:   2016-02-24 08:00:02 -0800
-categories: Applied Math, Coding, Data Structures, Design Patterns, Functional Programming, Javascript
+categories:
+    - Applied Math
+    - Coding
+    - Data Structures
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 A while ago we talked about <a href="http://www.chrisstead.net/archives/949/data-types-objects-and-creating-a-new-generic-type/" target="_blank">creating a custom type in Javascript</a> using object inheritance. There were a couple of fundamental issues with this post: first it was fairly academic and was unlikely to be applicable to the real world; second we didn't actually do anything with our resulting type.

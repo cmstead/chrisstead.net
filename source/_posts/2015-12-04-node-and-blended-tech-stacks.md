@@ -2,7 +2,11 @@
 layout: post
 title:  "Node and Blended Tech Stacks"
 date:   2015-12-04 11:00:12 -0800
-categories: Design Patterns, General Blogging, Javascript, Site Architecture
+categories:
+    - Design Patterns
+    - General Blogging
+    - Javascript
+    - Site Architecture
 ---
 {% raw %}
 The longer people write single page applications, the more of them there are. The notion of a SPA harkens back to the concept of client server architecture, invented some time in the 1960's or 1970's. Now we build SPAs with services constructed with Java, C#, Scala and Node. Some of the stacks we use have names like MEAN, and others are a hand-selected composite of disparate technologies with no name.

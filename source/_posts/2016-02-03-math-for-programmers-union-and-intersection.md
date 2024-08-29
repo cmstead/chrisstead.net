@@ -2,7 +2,13 @@
 layout: post
 title:  "Math for Programmers: Union and Intersection"
 date:   2016-02-03 08:00:23 -0800
-categories: Algorithms, Applied Math, Coding, Foundation, Functional Programming, Javascript
+categories:
+    - Algorithms
+    - Applied Math
+    - Coding
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Last week we talked about sets and how they relate to arrays. This week we will take a look at how to interact with arrays and apply two common mathematical operations on them to produce new, refined sets of data with which we can interact.

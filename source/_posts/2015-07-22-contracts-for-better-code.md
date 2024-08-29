@@ -2,7 +2,12 @@
 layout: post
 title:  "Contracts for Better Code"
 date:   2015-07-22 09:00:44 -0700
-categories: Coding, Design Patterns, Functional Programming, Javascript, Unit Testing
+categories:
+	- Coding
+	- Design Patterns
+	- Functional Programming
+	- Javascript
+	- Unit Testing
 ---
 {% raw %}
 With programming languages which have a greater draw for classically trained computer science types, there is a common discussion of contracts and data expectations. Contracts are so inherent in the code that it's hard to see a declaration without one. Type systems emerge from the idea of contracts and every function, constructor and return path comes with an expectation that is defined and declared in the code.

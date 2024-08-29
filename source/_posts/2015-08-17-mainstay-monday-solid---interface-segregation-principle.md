@@ -2,7 +2,12 @@
 layout: post
 title:  "Mainstay Monday: SOLID - Interface Segregation Principle"
 date:   2015-08-17 09:00:13 -0700
-categories: Coding, Design Patterns, Javascript, Mainstay Monday, SOLID
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Mainstay Monday
+    - SOLID
 ---
 {% raw %}
 This post is part of a series on the <a href="http://www.chrisstead.net/archives/category/design-patterns/solid/" target="_blank">SOLID programming principles</a>.

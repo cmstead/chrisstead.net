@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Chris Stead: Chris vs. Software Dev'
+title: 'Chris vs. Software Dev'
 subtitle: ''
 description: 'Chris Stead navel gazes on a lot of time spent in the software world'
 keywords:
@@ -14,7 +14,7 @@ timezone: 'US/Pacific'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://chrisstead.net
-permalink: :category/:year/:month/:day/:title
+permalink: :category/:year/:month/:day/:title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:

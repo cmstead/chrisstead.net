@@ -2,7 +2,11 @@
 layout: post
 title:  "Naming Things Part 3: Using Methods for Context"
 date:   2021-03-25 00:00:00 -0800
-categories: programming human-centered-source design names
+categories:
+  - programming
+  - human-centered-source
+  - design
+  - names
 ---
 
 >This is part three of a multi-part series on naming things. [Part two will be useful](http://chrisstead.net/programming/human-centered-source/design/names/2021/03/15/naming-things-part-the-second-simple-expressions.html)<sup>1</sup>.

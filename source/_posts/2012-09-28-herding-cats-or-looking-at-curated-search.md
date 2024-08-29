@@ -2,7 +2,11 @@
 layout: post
 title:  "Herding Cats or Looking at Curated Search"
 date:   2012-09-28 10:00:53 -0700
-categories: Content Strategy, Internet Culture, Site Architecture, User Experience
+categories:
+    - Content Strategy
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 You know what makes Google awesome? Their search algorithm is pretty darn smart.  You know what makes DOMZ awesome? Every stinking link on there has been verified by a real, honest-to-goodness human being.  You know what sucks about site search on most websites, even when they're running a Google custom search? The only time a human ever looks at the search is when they are actually using it to find something.

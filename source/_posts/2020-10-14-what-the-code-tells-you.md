@@ -2,7 +2,11 @@
 layout: post
 title:  "What the Code Tells You"
 date:   2020-10-14 00:00:00 -0800
-categories: programming code-authorship design affordances
+categories:
+  - programming
+  - code-authorship
+  - design
+  - affordances
 ---
 
 The world around us contains a number of contextual clues we have become so comfortable with, it's common to forget they are there at all. These contextual clues are often referred to as _affordances_. An affordance is a contextual clue about the way something works, or what it does. This is generally applied to the environment surrounding us, but it can also be applied to things like visual design.

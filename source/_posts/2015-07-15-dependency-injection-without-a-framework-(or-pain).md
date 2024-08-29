@@ -2,7 +2,11 @@
 layout: post
 title:  "Dependency Injection Without A Framework (Or Pain)"
 date:   2015-07-15 10:00:39 -0700
-categories: Coding, Design Patterns, Javascript, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 If you've come from one of those big name, big OO frameworks, you are probably used to the idea of an Inversion of Control (IoC) container and dependency injection. If you have worked with Angular, you're probably familiar with their dependency injection system. That's all great, but what if you aren't one of those people?

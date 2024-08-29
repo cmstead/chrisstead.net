@@ -2,7 +2,10 @@
 layout: post
 title:  "Developing for Delivery: Separating UI from Business"
 date:   2010-03-12 10:47:58 -0800
-categories: Coding, Site Architecture, World Wide Weird
+categories:
+    - Coding
+    - Site Architecture
+    - World Wide Weird
 ---
 {% raw %}
 With the advent of Ruby on Rails (RoR or Rails) as well as many of the <acronym title="PHP: Hypertext Preprocessor">PHP</acronym> frameworks available, <acronym title="Model View Controller">MVC</acronym> has become a regular buzzword. Everyone claims they work in an MVC fashion though, much like Agile development, it comes in various flavors and strengths.

@@ -2,7 +2,11 @@
 layout: post
 title:  "Party in the Front, Business in the Back"
 date:   2010-01-14 09:00:55 -0800
-categories: Coding, SEO, Site Architecture, User Experience
+categories:
+    - Coding
+    - SEO
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Nothing like a nod to the reverse mullet to start a post out right.  As I started making notes on a post about findability, something occurred to me.  Though it should seem obvious, truly separating presentation from business logic is key in ensuring usability and ease of maintenance.  Several benefits can be gained with the separation of business and presentation logic including wiring for a strong site architecture, solid, clear HTML with minimal outside code interfering and the ability to integrate a smart, smooth user experience without concern of breaking the business logic that drives it.

@@ -2,7 +2,12 @@
 layout: post
 title:  "Project Kickoff: Prepare to Deliver the Goods"
 date:   2012-09-21 14:09:48 -0700
-categories: Coding, Company Culture, Project Management, Site Architecture, User Experience
+categories:
+    - Coding
+    - Company Culture
+    - Project Management
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 We've all been there at some point or another.  A new project is just about to start.  Everyone in the know is bracing for impact and the people who are going to contribute are blissfully unaware of the monster lurking around the corner.

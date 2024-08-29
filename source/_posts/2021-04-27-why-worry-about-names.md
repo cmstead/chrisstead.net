@@ -2,7 +2,11 @@
 layout: post
 title:  "Why Worry About Names?"
 date:   2021-04-27 00:00:00 -0800
-categories: programming software-linguistics human-centered-source design
+categories:
+    - programming
+    - software-linguistics
+    - human-centered-source
+    - design
 ---
 In every brownfield project I have ever worked on -- and I have worked on a fair few -- there is a common pattern I find. Developers either name their variables incomprehensibly, or they avoid using variables at all. Chains of function calls and expressions which stream across the screen and off the right side are the norm.
 

@@ -2,7 +2,11 @@
 layout: post
 title:  "OOC: Object Oriented Content"
 date:   2010-01-15 11:15:08 -0800
-categories: Coding, Site Architecture, User Experience, World Wide Weird
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 Most content on the web is managed at the page level.  Though I cannot say that all systems behave in one specific way, I do know that each system I've used behaves precisely like this.  Content management systems assume that every new piece of content which is created is going to, ultimately, have a page that is dedicated to that piece of content.  Ultimately all content is going to live autonomously on a page.  Content, much like web pages, is <a href="http://www.websitemagazine.com/content/blogs/posts/archive/2009/02/05/psychology-of-design.aspx" target="_blank">not an island</a>.

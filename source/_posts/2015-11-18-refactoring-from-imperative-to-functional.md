@@ -2,7 +2,12 @@
 layout: post
 title:  "Refactoring from Imperative to Functional"
 date:   2015-11-18 08:00:25 -0800
-categories: Coding, Design Patterns, Functional Programming, General Blogging, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 I was talking with a coworker one day pretty recently and I had a pretty sizeable revelation, people think I write code the way I do from the get-go. It's actually really hard to look at the final output in a code block and understand how someone might have arrived at that solution.  Even when the code is completely obvious, it might not have been obvious how the original problem was solved.

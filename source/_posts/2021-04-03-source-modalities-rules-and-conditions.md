@@ -2,7 +2,11 @@
 layout: post
 title:  "Source Modalities: Rules and Conditions"
 date:   2021-04-03 00:00:00 -0800
-categories: programming software-linguistics human-centered-source design
+categories:
+    - programming
+    - software-linguistics
+    - human-centered-source
+    - design
 ---
 
 While analyzing and editing source code, much of the work to be done is rather straightforward. Many business applications are data stores with a user interface so a non-developer can manage the data.

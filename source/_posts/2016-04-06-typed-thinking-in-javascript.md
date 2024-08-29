@@ -2,7 +2,12 @@
 layout: post
 title:  "Typed Thinking in Javascript"
 date:   2016-04-06 09:00:16 -0700
-categories: Code Smells, Design Patterns, Foundation, Functional Programming, Javascript
+categories:
+    - Code Smells
+    - Design Patterns
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Javascript is a dynamically typed language. I suspect this is not news to anyone reading this. The reason this is important, however, is I have heard people say Javascript is untyped.  This statement is most definitely false. Javascript has and supports types, it simply does not actively expose this to the world at large.

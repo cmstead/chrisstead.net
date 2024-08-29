@@ -2,7 +2,12 @@
 layout: post
 title:  "Working with Strings and Regular Expressions"
 date:   2016-03-09 08:00:28 -0800
-categories: Algorithms, Applied Math, Coding, Foundation, Javascript
+categories:
+    - Algorithms
+    - Applied Math
+    - Coding
+    - Foundation
+    - Javascript
 ---
 {% raw %}
 An exchange at work got me thinking this last week. Someone said "I really hate regex." For those of you not in the loop on the lingo, regex means regular expressions.  After a little  prying, it turned out the reason they didn't like regular expressions was really rooted in the fact that they didn't have a chance to use them very often, so the concept is unfamiliar.

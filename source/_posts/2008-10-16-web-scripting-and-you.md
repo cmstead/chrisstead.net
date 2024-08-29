@@ -2,7 +2,9 @@
 layout: post
 title:  "Web Scripting and you"
 date:   2008-10-16 16:56:56 -0700
-categories: Coding, Site Architecture
+categories:
+    - Coding
+    - Site Architecture
 ---
 {% raw %}
 If there is one thing that I feel can be best learned from programming for the internet it's modularity.  Programmers preach modularity through encapsulation and design models but ultimately sometimes it's really easy to just throw in a hacky fix and be done with the whole mess.  Welcome to the "I need this fix last week" school of code updating.  Honestly, that kind of thing happens to the best of us.

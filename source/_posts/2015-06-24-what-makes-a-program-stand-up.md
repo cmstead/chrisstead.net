@@ -2,7 +2,11 @@
 layout: post
 title:  "What Makes a Program Stand Up"
 date:   2015-06-24 10:00:16 -0700
-categories: Coding, Design Patterns, General Blogging, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 Over the last year I have interviewed a lot of Javascript developers and I discovered something: many people working in Javascript don't really understand what programming really means. What I am saying by this is, people can write code and make stuff happen in the DOM, but they don't really understand why. Scratching just below jQuery reveals that most of a program is still essentially magic for people who promote themselves as developers.

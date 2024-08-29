@@ -2,7 +2,10 @@
 layout: post
 title:  "(Not) Another JS Testing How-To"
 date:   2015-06-10 16:10:26 -0700
-categories: Coding, Javascript, Unit Testing
+categories: 
+    - Coding
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 There are lots of posts about how to write your first unit test in Jasmine or Mocha, and many of them draw directly from the Jasmine how to. Let's pretend, for a moment, that you are a developer who is already familiar with unit testing and what you really, REALLY need is a way to actually get things started without having to read a whole host of how-tos, setup documentation etc, when all you really want to do is get to unit testing.

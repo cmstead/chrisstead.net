@@ -2,7 +2,11 @@
 layout: post
 title:  "Static Methods on Javascript Objects"
 date:   2016-05-04 09:00:28 -0700
-categories: Coding, Design Patterns, Functional Programming, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 I'm a big proponent of unit testing. This means that any code I can test, I do.  When I work in the browser, however, it becomes more challenging to effectively unit test all of the code I write without spinning up an instance of PhantomJS. On top of that, most of the code I write in the browser, now, uses Angular as the underlying framework, which means my requirements are even more restricted since the go-to testing environment for Angular is Karma, which uses PhantomJS to satisfy Angular's dependency on a live DOM.

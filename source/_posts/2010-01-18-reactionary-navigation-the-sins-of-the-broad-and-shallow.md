@@ -2,7 +2,9 @@
 layout: post
 title:  "Reactionary Navigation: The Sins of the Broad and Shallow"
 date:   2010-01-18 08:00:11 -0800
-categories: Site Architecture, User Experience
+categories:
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 When given a task of making search terms and frequetly visited pages more accessible to users, the uninitiated fire and fall back.  They leave in their wake, broad, shallow sites with menus and navigtion which look more like weeds than an organized system. Ultimately , these navigation schemes fail to do the one thing they were intended for, enhance findability.

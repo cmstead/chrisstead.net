@@ -2,7 +2,12 @@
 layout: post
 title:  "Learning Javascript Differently"
 date:   2016-03-02 08:00:40 -0800
-categories: Coding, Foundation, Functional Programming, General Blogging, Javascript
+categories:
+    - Coding
+    - Foundation
+    - Functional Programming
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 On Thursday and Friday I was at a convention called Agile Open San Diego. The core idea is people getting together and having two full days of water cooler discussions about agile development and leadership. It's pretty cool and you should go to one near you.  Anyway, something happened on Friday morning: I realized we need a new way of approaching language learning.

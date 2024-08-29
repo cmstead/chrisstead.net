@@ -2,7 +2,9 @@
 layout: post
 title:  "Information and the state of the web"
 date:   2009-06-09 16:59:47 -0700
-categories: Site Architecture, User Experience
+categories:
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 I only post here occasionally and it has crossed my mind that I might almost be wise to just create a separate blog on my web server.  I have these thoughts and then I realize that I don't have time to muck with that when I have good blog content to post, or perhaps it is simply laziness.  Either way, I only post when something strikes me.

@@ -2,7 +2,11 @@
 layout: post
 title:  "URLs for Web Developers"
 date:   2015-11-04 08:00:52 -0800
-categories: Coding, Foundation, Javascript, World Wide Weird
+categories:
+    - Coding
+    - Foundation
+    - Javascript
+    - World Wide Weird
 ---
 {% raw %}
 At this point it seems like everyone knows about URLs. People can rattle off google.com and myfavoritesportsteam.net, but knowing domain names is not the same as really understanding URLs. URLs, AKA Uniform Resource Locators, actually adhere to a set of standards and behaviors which apply to the way your application interacts with the browser and services which provide data and resources.

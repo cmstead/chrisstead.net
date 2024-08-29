@@ -2,7 +2,12 @@
 layout: post
 title:  "Intent: Why Types Are Important"
 date:   2016-04-20 09:00:43 -0700
-categories: Coding, Design Patterns, Functional Programming, Javascript, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - Functional Programming
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 A common complaint from both the Javascript religious and the newcomers alike is Javascript is tremendously difficult to debug when things go sideways.  When a null or undefined reference is passed, the stack trace can be illuminating or it can be completely obscure.  Couple this with the growing popularity to use anonymous functions assigned to variables in lieu of named functions and you have a recipe for tremendous difficulty.

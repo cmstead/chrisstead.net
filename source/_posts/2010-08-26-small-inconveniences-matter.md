@@ -2,7 +2,11 @@
 layout: post
 title:  "Small Inconveniences Matter"
 date:   2010-08-26 09:41:47 -0700
-categories: Coding, Internet Culture, Site Architecture, User Experience
+categories:
+    - Coding
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Last night I was working on integrating oAuth consumers into Noisophile.  This is the first time I had done something like this so I was reading all of the material I could to get the best idea for what I was about to do.  I came across a blog post about oAuth and one particular way of managing the information passed back from Twitter and the like.

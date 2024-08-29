@@ -2,7 +2,11 @@
 layout: post
 title:  "Bind All The Things"
 date:   2015-12-16 20:48:35 -0800
-categories: Coding, Foundation, Functional Programming, Javascript
+categories:
+	- Coding
+	- Foundation
+	- Functional Programming
+	- Javascript
 ---
 {% raw %}
 In the time I have written and mentored with Javascript, there is a single core concept which seems to give people a significant amount of trouble: bind. To the uninitiated, bind is a puzzle, wrapped in a mystery wrapped in an enigma. If you are comfortable with functional programming, there are parts of bind which make no sense and, at the same time, if your experience is rooted in a strict OO language, other aspects will be less than sensible.  I'd like to look at bind holistically in the hope that all will become clear.

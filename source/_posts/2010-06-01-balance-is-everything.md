@@ -2,7 +2,13 @@
 layout: post
 title:  "Balance is Everything"
 date:   2010-06-01 10:55:57 -0700
-categories: HTML, Javascript, PHP, SEO, Site Architecture, User Experience
+categories:
+    - HTML
+    - Javascript
+    - PHP
+    - SEO
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Earlier this year I discussed <a href="http://www.chrisstead.net/archives/226" target="_blank">progressive enhancement</a>, and proposed that a web site should perform the core functions without any frills.  Last night I had a discussion with a friend, regarding this very same topic.  It came to light that it wasn't clear where the boundaries should be drawn.  Interaction needs to be a blend of server- and client-side technologies.

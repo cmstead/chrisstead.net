@@ -2,7 +2,8 @@
 layout: post
 title:  "Mainstay Monday: Hiatus"
 date:   2015-09-28 09:00:13 -0700
-categories: Mainstay Monday
+categories:
+    - Mainstay Monday
 ---
 {% raw %}
 I have spent the last several months writing two blog posts per week. I have really enjoyed writing both the Mainstay Monday and the regular Wednesday posts, but time is a limited resource.  I have started a new writing project which will consume a considerable amount of time, so I had to make a choice: I could either continue writing two blog posts a week, or I could pursue my new project.

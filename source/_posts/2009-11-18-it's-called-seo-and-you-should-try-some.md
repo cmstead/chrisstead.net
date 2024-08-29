@@ -2,7 +2,8 @@
 layout: post
 title:  "It's Called SEO and You Should Try Some"
 date:   2009-11-18 16:02:19 -0800
-categories: SEO
+categories:
+    - SEO
 ---
 {% raw %}
 It's been a while since I last posted, but this bears note. Search engine optimization, commonly called SEO, is all about getting search engines to notice you and people to come to your site. The important thing about good SEO is that it will do more than simply get eyes on your site, but it will get the RIGHT eyes on your site. People typically misunderstand the value of optimizing their site or they think that it will radically alter the layout, message or other core elements they hold dear.

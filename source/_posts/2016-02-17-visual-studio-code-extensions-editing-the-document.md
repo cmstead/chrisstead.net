@@ -2,7 +2,11 @@
 layout: post
 title:  "Visual Studio Code Extensions: Editing the Document"
 date:   2016-02-17 08:00:23 -0800
-categories: Coding, General Blogging, Internet Culture, Javascript
+categories:
+    - Coding
+    - General Blogging
+    - Internet Culture
+    - Javascript
 ---
 {% raw %}
 I have been supporting an extension for Visual Studio Code for about a month now. In that time I have learned a lot about building extensions for an editor and static analysis of Javascript. Today is more about the former and less about the latter.  Nevertheless, I have found that creating snippets, modifying the status bar and displaying messages is trivial, but modifying the current document is hard when you don't know how to even get started.

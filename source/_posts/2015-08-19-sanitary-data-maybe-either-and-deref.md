@@ -2,7 +2,12 @@
 layout: post
 title:  "Sanitary Data: Maybe, Either and Deref"
 date:   2015-08-19 09:00:55 -0700
-categories: Coding, Design Patterns, Foundation, Functional Programming, Javascript
+categories:
+    - Coding
+    - Design Patterns
+    - Foundation
+    - Functional Programming
+    - Javascript
 ---
 {% raw %}
 Although there are times when conditional blocks are necessary for functionality, it is common that conditions simply wrap up data which may be null or undefined.  These kinds of conditional blocks have become so common that they are considered idiomatic code. The underlying goal, however, is to guarantee sanitary data.  

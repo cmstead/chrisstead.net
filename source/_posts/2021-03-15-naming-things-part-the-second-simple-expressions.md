@@ -2,7 +2,11 @@
 layout: post
 title:  "Naming Things Part the Second, or Simple Expressions"
 date:   2021-03-15 00:00:00 -0800
-categories: programming human-centered-source design names
+categories:
+  - programming
+  - human-centered-source
+  - design
+  - names
 ---
 
 >This is part two of a herminyherm-part series on naming things. [Part one might be useful for you](http://chrisstead.net/programming/human-centered-source/design/names/2021/02/22/naming-things-part-the-first-magic-primitives.html)<sup>1</sup>.

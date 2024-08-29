@@ -2,7 +2,10 @@
 layout: post
 title:  "Reading Source Code, Reading Natural Language"
 date:   2021-04-06 00:00:00 -0800
-categories: programming software-linguistics research
+categories:
+  - programming
+  - software-linguistics
+  - research
 ---
 
 In a previous blog post<sup>1</sup> I talked about an article claiming that reading source code was not like reading natural language. The original post referred to an article from "Science Daily"<sup>2</sup>, however there were far too many details missing, so I could only speculate on what the research said, how it was conducted, etc.

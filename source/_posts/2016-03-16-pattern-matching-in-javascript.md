@@ -2,7 +2,13 @@
 layout: post
 title:  "Pattern Matching in Javascript"
 date:   2016-03-16 09:00:04 -0700
-categories: Applied Math, Coding, Data Structures, Functional Programming, General Blogging, Javascript
+categories:
+    - Applied Math
+    - Coding
+    - Data Structures
+    - Functional Programming
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 For more than a year I have been considering the idea of pattern matching in Javascript. I know I am not the only one trying to solve this problem because there are a handful of resources where people have put together propositions for solutions, including a <a href="https://github.com/natefaubion/sparkler" target="_blank">Sweet.js macro called Sparkler</a>, and Bram Stein's <a href="https://www.bramstein.com/writing/pattern-matching.html" target="_blank">blog post</a> and <a href="https://github.com/bramstein/funcy" target="_blank">associated Github repo</a>.

@@ -2,7 +2,11 @@
 layout: post
 title:  "Analyzing Source Code: Source Textemes"
 date:   2021-03-23 00:00:00 -0800
-categories: programming source-code linguistic-analysis human-centered-source
+categories:
+  - programming
+  - source-code
+  - linguistic-analysis
+  - human-centered-source
 ---
 
 I realized a few years ago that one of the most important aspects of writing software, to me, is to build it for people. For several years, I thought, given enough research, there was a technical solution out there that would help me to finally discover a way back to people.

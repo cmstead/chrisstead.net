@@ -2,7 +2,10 @@
 layout: post
 title:  "Anticipating User Action"
 date:   2010-09-21 11:09:25 -0700
-categories: Internet Culture, Site Architecture, User Experience
+categories:
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Congrats, you've made it to the third part of my math-type exploration of anticipated user behavior on the web.  Just a refresher, the last couple of posts were about <a href="http://www.chrisstead.net/archives/369" target="_blank">user tolerance</a> and <a href="http://www.chrisstead.net/archives/429" target="_blank">anticipating falloff/satisficing</a>  These posts may have been a little dense and really math-heavy, but it's been worth it, right?

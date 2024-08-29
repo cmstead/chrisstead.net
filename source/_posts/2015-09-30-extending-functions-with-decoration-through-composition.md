@@ -2,7 +2,13 @@
 layout: post
 title:  "Extending Functions with Decoration through Composition"
 date:   2015-09-30 09:00:25 -0700
-categories: Coding, Design Patterns, Foundation, Functional Programming, Javascript, SOLID
+categories:
+    - Coding
+    - Design Patterns
+    - Foundation
+    - Functional Programming
+    - Javascript
+    - SOLID
 ---
 {% raw %}
 In object oriented design, the decorator pattern is commonly used to extend and enhance classes so they perform some new or more refined functionality. In functional programming it is possible to decorate functions as well. The decoration must follow a few rules, but the result is a very powerful technique to enhance functions statically and at run time.

@@ -2,7 +2,11 @@
 layout: post
 title:  "The Theme of Your Code"
 date:   2021-03-27 00:00:00 -0800
-categories: programming software-linguistics human-centered-source design
+categories:
+  - programming
+  - software-linguistics
+  - human-centered-source
+  - design
 ---
 
 In the past 25 years, or so, it has become popular to consider high-level structure of programs in chunks defined by a group affectionately referred to as the "Gang of Four". They wrote a book called "Design Patterns"<sup>1</sup> which laid out common patterns for solving well-understood problems in software.

@@ -2,7 +2,10 @@
 layout: post
 title:  "Stupid Javascript Object Tricks"
 date:   2015-12-30 08:00:12 -0800
-categories: Coding, General Blogging, Javascript
+categories:
+	- Coding
+	- General Blogging
+	- Javascript
 ---
 {% raw %}
 I usually write something meaty for my posts, but sometimes it's worthwhile to just see some of the strange stuff you can do with a language because it's informative. I remember one of the most enlightening things I experienced while I was working on my degree was taking a class on Assembly.  I don't use Assembly at all in my day to day, but there was a lot of good knowledge I gained just from taking the class.  

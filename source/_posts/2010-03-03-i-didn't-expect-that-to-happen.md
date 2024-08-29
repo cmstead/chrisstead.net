@@ -2,7 +2,10 @@
 layout: post
 title:  "I Didn't Expect THAT to Happen"
 date:   2010-03-03 12:48:07 -0800
-categories: Coding, Site Architecture, User Experience
+categories:
+    - Coding
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 How many times have you been on a website and said those very words? You click on a menu item, expecting to have content appear in much the same way everything else did.  Then, BANG you get fifteen new browser windows and a host of chirping, talking and other disastrous actions.

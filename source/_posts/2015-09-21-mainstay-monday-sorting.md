@@ -2,7 +2,13 @@
 layout: post
 title:  "Mainstay Monday: Sorting"
 date:   2015-09-21 09:00:01 -0700
-categories: Algorithms, Coding, Design Patterns, Foundation, Javascript, Mainstay Monday
+categories:
+    - Algorithms
+    - Coding
+    - Design Patterns
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 If you're reading this you're likely already a programmer. This means you have likely used [].sort() in your code many times. I honestly can't remember how many times I've sorted data one way or another. Just because you've called sort on an array doesn't mean you're necessarily doing the best way you can. Does the following code look familiar to you?

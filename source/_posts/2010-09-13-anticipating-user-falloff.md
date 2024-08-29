@@ -2,7 +2,10 @@
 layout: post
 title:  "Anticipating User Falloff"
 date:   2010-09-13 09:45:39 -0700
-categories: Site Architecture, User Experience, World Wide Weird
+categories:
+    - Site Architecture
+    - User Experience
+    - World Wide Weird
 ---
 {% raw %}
 As we discussed last week, <a href="http://www.chrisstead.net/archives/369" target="_blank">users have a predictable tolerance</a> for wait times through waiting for page loading and information seeking behaviors.  The value you get when you calculate expected user tolerance can be useful by itself, but it would be better if you could actually predict the rough numbers of users who will fall off early and late in the wait/seek process.

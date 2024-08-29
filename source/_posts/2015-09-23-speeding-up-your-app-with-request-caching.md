@@ -2,7 +2,13 @@
 layout: post
 title:  "Speeding Up Your App with Request Caching"
 date:   2015-09-23 09:00:56 -0700
-categories: Algorithms, Coding, Data Structures, Design Patterns, Javascript, User Experience
+categories:
+    - Algorithms
+    - Coding
+    - Data Structures
+    - Design Patterns
+    - Javascript
+    - User Experience
 ---
 {% raw %}
 Recently in my Mainstay Monday posts I've talked about creating linked lists and queues in Javascript. Each of those topics is so dense that just writing about the basics of creating and using them took full blog posts.  Really all of that was the lead up to today's post.

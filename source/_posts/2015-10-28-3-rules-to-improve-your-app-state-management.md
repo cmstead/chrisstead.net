@@ -2,7 +2,10 @@
 layout: post
 title:  "3 Rules to Improve Your App State Management"
 date:   2015-10-28 09:00:16 -0700
-categories: Coding, Data Structures, Javascript
+categories:
+	- Coding
+	- Data Structures
+	- Javascript
 ---
 {% raw %}
 As SPAs become more common for web application development, the concept of state is moving almost completely out of the realm of servers and services and into the browser, and rightly so. Ideally services should only maintain state as persistent storage like databases, document stores and file systems. Application state like where the user is and what they are interacting with should be maintained as close to the user as we can keep it.

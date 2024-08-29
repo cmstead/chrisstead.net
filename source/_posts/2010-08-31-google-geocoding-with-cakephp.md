@@ -2,7 +2,11 @@
 layout: post
 title:  "Google Geocoding with CakePHP"
 date:   2010-08-31 14:26:54 -0700
-categories: Coding, PHP, Site Architecture, World Wide Weird
+categories:
+     - Coding
+     - PHP
+     - Site Architecture
+     - World Wide Weird
 ---
 {% raw %}
 Google has some pretty neat toys for developers and CakePHP is a pretty friendly framework to quickly build applications on which is well supported.  That said, when I went looking for a Google geocoding component, I was a little surprised to discover that nobody had created one to do the hand-shakey business between a CakePHP application and Google.

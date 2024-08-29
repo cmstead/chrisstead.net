@@ -2,7 +2,9 @@
 layout: post
 title:  "UX: The Break Room Microwave"
 date:   2011-10-05 14:35:10 -0700
-categories: Site Architecture, User Experience
+categories:
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 As is typical with the break room at many offices, we have a microwave.  Actually, we have two, but there is one in particular that everyone knows about and avoids.  Everyone but me*, that is.  It is a machine crafted in the forges of bad usability and total misunderstanding of user journey.

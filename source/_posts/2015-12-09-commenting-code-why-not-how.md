@@ -2,7 +2,12 @@
 layout: post
 title:  "Commenting Code: Why, Not How"
 date:   2015-12-09 08:00:36 -0800
-categories: Code Smells, Coding, Foundation, General Blogging, Javascript
+categories:
+    - Code Smells
+    - Coding
+    - Foundation
+    - General Blogging
+    - Javascript
 ---
 {% raw %}
 If you have written any amount of code in any language you are likely aware of code comments or remarks and how they work. This isn't really what I'm interested in. I came across a discussion about an open source project which had a requirement that all code must be left completely uncommented. People were surprised and alarmed as to why this project would require all code to be uncommented, and I tend to agree. This post is to address comment content.  Hopefully, you will share my opinion that comments are important by the end of this.

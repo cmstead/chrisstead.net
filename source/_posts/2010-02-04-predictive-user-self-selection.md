@@ -2,7 +2,10 @@
 layout: post
 title:  "Predictive User Self-Selection"
 date:   2010-02-04 09:00:14 -0800
-categories: Coding, PHP, User Experience
+categories:
+     - Coding
+     - PHP
+     - User Experience
 ---
 {% raw %}
 Some sites, like this one, have a reasonably focused audience. It can become problematic, however, for corporate sites to sort out their users, and lead them to the path of enlightenment.  In the worst situations, it may be a little like throwing stones into the dark, hoping to hit a matchstick.  In the best, users will wander in and tell you precisely who they are.

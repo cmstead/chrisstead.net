@@ -2,7 +2,14 @@
 layout: post
 title:  "Domain Modeling For Better Contracts"
 date:   2016-06-29 09:00:52 -0700
-categories: Coding, Data Structures, Design Patterns, Foundation, Functional Programming, Javascript, Types
+categories:
+- Coding
+- Data Structures
+- Design Patterns
+- Foundation
+- Functional Programming
+- Javascript
+- Types
 ---
 {% raw %}
 In the post about communicating contracts through <a href="http://www.chrisstead.net/archives/1160/enforcing-endpoints-types-and-signet/" target="_blank">enforcing endpoint contracts</a>, we took a look at some basic types which are available in Signet. Today we are going to talk about how to add more information to your types by creating your own data types.

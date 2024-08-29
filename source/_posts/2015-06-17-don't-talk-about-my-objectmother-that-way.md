@@ -2,7 +2,11 @@
 layout: post
 title:  "Don't Talk About My ObjectMother That Way"
 date:   2015-06-17 10:00:41 -0700
-categories: Coding, Design Patterns, Javascript, Unit Testing
+categories:
+    - Coding
+    - Design Patterns
+    - Javascript
+    - Unit Testing
 ---
 {% raw %}
 When last we met, we talked about <a href="http://www.chrisstead.net/archives/655/not-another-js-testing-how-to/" target="_blank">setting up unit testing for Javascript</a>. I'm sure anyone reading this blog is at least aware of the idea of software design patterns.  There are all of these known challenges with canned solutions. If the solution isn't ready out of the box, it is with just a little bit of tweaking. Something you might not be aware of is there are unit testing design patterns too. 

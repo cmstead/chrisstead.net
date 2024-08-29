@@ -2,7 +2,12 @@
 layout: post
 title:  "Mainstay Monday: Queues"
 date:   2015-09-14 09:00:59 -0700
-categories: Coding, Data Structures, Foundation, Javascript, Mainstay Monday
+categories:
+    - Coding
+    - Data Structures
+    - Foundation
+    - Javascript
+    - Mainstay Monday
 ---
 {% raw %}
 A couple weeks ago, we looked into <a href="http://www.chrisstead.net/archives/885/mainstay-monday-linked-lists/" target="_blank">linked lists</a>. Sadly linked lists are kind of a standalone topic that don't use much more than basic objects in order to function as designed. Queues, on the other hand can easily spring forward from linked lists, and they are a way of working with data as you might with generators!

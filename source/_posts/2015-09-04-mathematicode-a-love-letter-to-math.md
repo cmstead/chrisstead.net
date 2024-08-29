@@ -2,7 +2,11 @@
 layout: post
 title:  "Mathematicode a Love Letter to Math"
 date:   2015-09-04 09:00:01 -0700
-categories: Applied Math, Coding, General Blogging, World Wide Weird
+categories:
+    - Applied Math
+    - Coding
+    - General Blogging
+    - World Wide Weird
 ---
 {% raw %}
 I'll open up by saying I am a mathematician by education. I'm not one of the mathematical great minds and I am unlikely to ever win a Fields medal, but I have a degree in applied math and it's what I know. The reason I share this is because it helps define the way I think about problems I work on. Regardless of whether I am working on a problem at work or working on something in my spare time, my math background helps to define the approach I take to solving many of the problems I encounter.

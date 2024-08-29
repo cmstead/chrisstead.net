@@ -2,7 +2,9 @@
 layout: post
 title:  "To New Beginnings"
 date:   2015-05-01 10:00:13 -0700
-categories: General Blogging, World Wide Weird
+categories:
+    - General Blogging
+    - World Wide Weird
 ---
 {% raw %}
 Wow! It's shocking that the last post I wrote here was almost a year and a half ago. I guess it's been busy!

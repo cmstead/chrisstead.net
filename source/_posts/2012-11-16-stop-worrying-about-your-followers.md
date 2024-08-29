@@ -2,7 +2,16 @@
 layout: post
 title:  "Stop Worrying About Your Followers"
 date:   2012-11-16 15:05:59 -0800
-categories: Content Strategy, facebook, followers, friends. neuroses, General Blogging, Internet Culture, stop that before you go blind, twitter
+categories:
+    - Content Strategy
+    - facebook
+    - followers
+    - friends
+    - neuroses
+    - General Blogging
+    - Internet Culture
+    - stop that before you go blind
+    - twitter
 ---
 {% raw %}
 Yeah, I said it.  Knock it off.  Stop worrying about how many people are following you on Twitter.  Forget about how many friends you have on Facebook.  Quit fussing over whether someone stopped following you or decided they didn't want to be your "friend."  They don't know you any more than you know them.  It's nothing personal, they just stopped.

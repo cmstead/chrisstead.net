@@ -2,7 +2,11 @@
 layout: post
 title:  "Leveling Up With Reduce"
 date:   2015-10-14 09:00:15 -0700
-categories: Code Smells, Design Patterns, Functional Programming, Javascript
+categories:
+	- Code Smells
+	- Design Patterns
+	- Functional Programming
+	- Javascript
 ---
 {% raw %}
 It was pointed out to me the other day that I suffer from the curse of knowledge. What this basically means is, I know something so I don't understand what it means to NOT know that thing. This can happen in any aspect of life and it's common for people, especially software developers, to experience this. Many of us have been working with computers in some way or another for most or all of our lives. This means, when we talk to people who haven't shared our experiences, we don't understand their position, i.e. we talk and they don't have any clue what we are saying.

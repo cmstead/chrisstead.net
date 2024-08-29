@@ -2,7 +2,12 @@
 layout: post
 title:  "Accessibility and graceful degradation"
 date:   2007-12-11 15:51:54 -0800
-categories: Coding, HTML, Javascript, Site Architecture, User Experience
+categories:
+    - Coding
+    - HTML
+    - Javascript
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Something that I have learnt over time is how to make your site accessible for people that don't have your perfect 20/20 vision, are working from a limited environment or just generally have old browsing capabilities. Believe it or not, people that visit my web sites still use old computers with old copies of Windows. Personally, I have made the Linux switch everywhere I can. That being said, I spend a certain amount of time surfing the web using Lynx. This is not due to the fact that I don't have a GUI in Linux. I do. And I use firefox for my usual needs, but Lynx has a certain special place in my heart. It is in a class of browser that sees the web in much the same way that a screen reader does. For example, all of those really neat iframes that you use for dynamic content? Yeah, those come up as "iframe." Totally unreadable. Totally unreachable. Iframe is an example of web technology that is web-inaccessible. Translate this as bad news.

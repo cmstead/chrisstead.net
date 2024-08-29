@@ -2,7 +2,10 @@
 layout: post
 title:  "Ah, Simplicity"
 date:   2010-01-08 14:14:10 -0800
-categories: Internet Culture, Site Architecture, User Experience
+categories:
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Every time I wander the web I seem to find it more complicated than the last time I left it.  Considering this happens on a daily basis, the complexity appears to be growing monotonically.  It has been shown again and again that the attention span of people on the web is extremely short.  A good example of this is a post on Reputation Defender about the <a href="http://www.reputationdefenderblog.com/2008/06/16/the-short-attention-span-of-web-searchers-most-never-read-past-3-results/" target="_blank">click-through rate on their search results</a>.

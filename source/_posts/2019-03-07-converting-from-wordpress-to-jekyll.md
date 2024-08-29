@@ -2,7 +2,8 @@
 layout: post
 title:  "Converting from WordPress To Jekyll"
 date:   2019-03-07 00:00:00 -0800
-categories: Blog-Conversion
+categories:
+    - Blog-Conversion
 ---
 
 I remember a time, long ago, when WordPress was a small, scrappy piece of software which was dedicated primarily to the publishing of blogs and basic site content.  It wasn't the most fully-featured CMS on the planet, but it worked well enough. It was fast enough and flexible enough, so people, including me, used it.

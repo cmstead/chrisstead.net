@@ -2,7 +2,9 @@
 layout: post
 title:  "TIP -- Adding Features to Legacy Code"
 date:   2019-11-05 10:00:00 -0800
-categories: Coding, Javascript
+categories:
+    - Coding
+    - Javascript
 ---
 Michael Feathers defines legacy code as [code without tests](https://en.wikipedia.org/wiki/Legacy_code).  This means code written years ago, with a good test harness, is not legacy code. It also means the code written yesterday, without tests, IS legacy code.
 

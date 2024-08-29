@@ -2,7 +2,11 @@
 layout: post
 title:  "Creativity Kills"
 date:   2010-01-29 09:00:56 -0800
-categories: Coding, Internet Culture, Site Architecture, User Experience
+categories:
+    - Coding
+    - Internet Culture
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 People are creative.  It's a fact of the state of humanity.  People want to make things.  It's built into the human condition.  But there is a difference between haphazard creation and focused, goal-oriented development.

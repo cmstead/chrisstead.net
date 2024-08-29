@@ -2,7 +2,15 @@
 layout: post
 title:  "Almost Pretty: URL Rewriting and Guessability"
 date:   2010-03-29 01:00:10 -0700
-categories: ASP.Net, C#, Coding, JSP, PHP, SEO, Site Architecture, User Experience
+categories:
+    - ASP.Net
+    - C#
+    - Coding
+    - JSP
+    - PHP
+    - SEO
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 Through all of the usability, navigation, design, various user-related laws and a healthy handful of information and hierarchical tricks and skills, something that continues to elude designers and developers is pretty <acronym title="Uniform Resource Locator">URL</acronym>s.  Mind you, SEO experts would balk at the idea that companies don't think about using pretty URLs in order to drive search engine placement.  There is something else to consider in the meanwhile:

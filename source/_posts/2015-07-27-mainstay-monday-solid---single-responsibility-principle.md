@@ -2,7 +2,13 @@
 layout: post
 title:  "Mainstay Monday: SOLID - Single Responsibility Principle"
 date:   2015-07-27 09:00:58 -0700
-categories: Coding, Design Patterns, Foundation, Javascript, Mainstay Monday, SOLID
+categories:
+	- Coding
+	- Design Patterns
+	- Foundation
+	- Javascript
+	- Mainstay Monday
+	- SOLID
 ---
 {% raw %}
 This post is part of a series on the <a href="http://www.chrisstead.net/archives/category/design-patterns/solid/" target="_blank">SOLID programming principles</a>.

@@ -2,7 +2,12 @@
 layout: post
 title:  "Content: It's All About Objects"
 date:   2010-03-25 14:35:56 -0700
-categories: Coding, CSS, HTML, Site Architecture, User Experience
+categories:
+    - Coding
+    - CSS
+    - HTML
+    - Site Architecture
+    - User Experience
 ---
 {% raw %}
 When I wrote my first post about <a href="http://www.chrisstead.net/archives/112" target="_blank">object-oriented content</a>, I was thinking in a rather small scope.  I said to myself, "I need content I can place where I need it, but I can edit once and update everything at the same time." The answer seemed painfully clear: I need objects.
