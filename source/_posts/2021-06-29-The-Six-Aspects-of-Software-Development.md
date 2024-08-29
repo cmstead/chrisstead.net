@@ -71,7 +71,7 @@ The source code we write provides instruction. When people read the source code 
 
 In the same way, our actions instruct those around us. This means that when we act without intent or care, it unintentionally informs the people around us. Actions teach about social norms. Those norms will make their way into the source code whether we want it or not.
 
-A system will mirror the communication structure of the organization which made it – Mel Conway
+> A system will mirror the communication structure of the organization which made it – Mel Conway
 
 As developers we must be aware of, and use our skills of instruction as best we can. The people around us depend on us to be honest about our intent, and consistent with our behaviors. They depend on the code to reflect the way things are best done. They rely on clear understanding of the problem space and what we are doing to serve the business and the people who rely on our solutions.
 
@@ -97,9 +97,10 @@ This was kind of a rambling round-up of the six aspects I have spotted in softwa
 
 Some developers struggle to identify the “most important things to know”. This likely comes from one of a few potential reasons:
 
-not understanding that learning is an incremental discovery path
-not understanding that different skills impact outcomes in different ways
-not understanding that there is no single discrete skill which will make or break a developer on their career journey
+- not understanding that learning is an incremental discovery path
+- not understanding that different skills impact outcomes in different ways
+- not understanding that there is no single discrete skill which will make or break a developer on their career journey
+
 These 6 aspects are merely a lens we can use to evaluate where we, or others on our team, may be struggling. Moreover, there are complementary, and augmenting aspects. This means, if someone is struggling with reading code, it may mean the way code is written may be introducing a challenge. On the other hand, it may mean there is a learning gap, so we need to use our teaching skills.
 
 Like any system, there is no single path to improvement, but there may be indicators of ways we can budge the needle without needing to spend a significant amount of time and effort to get people where they need to be next.
