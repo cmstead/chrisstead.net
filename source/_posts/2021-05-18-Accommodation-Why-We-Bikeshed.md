@@ -1,7 +1,7 @@
 ---
 title: 'Accommodation: Why We Bikeshed'
 date: 2021-05-18
-tags:
+categories:
     - programming
     - accommodation-theory
     - sociolinguistics-of-code

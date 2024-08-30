@@ -1,7 +1,7 @@
 ---
 title: "Yog's Law: Power, Responsibility, and Accountability"
 date: 2021-07-16
-tags:
+categories:
     - power-dynamics
     - yogs-law
     - workplace-safety

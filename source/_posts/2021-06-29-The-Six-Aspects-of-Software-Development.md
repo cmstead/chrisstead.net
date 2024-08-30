@@ -1,7 +1,7 @@
 ---
 title: The Six Aspects of Software Development
 date: 2021-06-29
-tags:
+categories:
     - software-development
     - human-centered-code
     - sociocognitive-software-development
