@@ -6,7 +6,7 @@ categories:
     - interviewing
     - work environment
 ---
-Something I haven’t thought about in a long time is solving toy problems during an interview. Recently I did exactly that - I had an interview involving a LeetCode style toy problem. I got some feedback I wanted to share because it is telling. I'm the first candidate the interviewer had met who test-drove a solution. I got the second interview because of it.
+Something I haven’t thought about in a long time is solving toy problems during an interview. Recently I did exactly that - I had an interview involving a LeetCode-style toy problem. I got some feedback I wanted to share because it is telling. I'm the first candidate the interviewer had met who test-drove a solution. I got the second interview because of it.
 
 Test driving is more than writing tests. Even so, the act of writing tests is still enough to make your interview experience smoother. Being able to write tests in an interview setting will set you apart from other candidates.
 
@@ -43,7 +43,7 @@ Repeat this process as you solve the larger problem. If you run a test and disco
 Solving toy problems often leads to unexpected discoveries. These discoveries come in three flavors:
 
 - Germane work: this work is part of the task at hand
-- New tasks: these are requirements that were not obvious at first blush but need attentio
+- New tasks: these are requirements that were not obvious at first blush but need attention
 - Extraneous discovery: These discoveries set a boundary for what is in and out of scope
 
 While working on a task, pause on each discovery and decide if it is germane to the current task or not. Every discovery deserves consideration, but not everyone deserves your effort. If a discovery is not germane, is it extraneous or not? Capture your thoughts as you go. Interviewers want to know if you are considering these concerns.
@@ -63,7 +63,7 @@ Testing while interviewing keeps you centered on core elements of software devel
 
 ## Spotting bugs in your code
 
-Spotting bugs goes hand in hand with changing code. Bugs don't appear in code spontaneously. They emerge from changing code to do something new or different. To this point, tests have been more about note-taking and ensuring that your code works as expected. Catching bugs is where your tests will shine in interviews.
+Spotting bugs goes hand in hand with changing code. Bugs don't appear in code spontaneously. They emerge from changing code to do something new or different. So far, tests have focused on note-taking and checking if your code runs correctly. Catching bugs is where your tests will shine in interviews.
 
 If you have been following my advice this far, you have been writing and running your tests. If you haven't been, it is time to start. Every time you make changes to your code, you should run your tests. This is a rule. Any time you break this rule, a bug will catch you off guard.
 
