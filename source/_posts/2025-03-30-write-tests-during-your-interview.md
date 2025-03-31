@@ -6,14 +6,16 @@ categories:
     - interviewing
     - work environment
 ---
-Something I haven’t thought about in a long time is solving toy problems during an interview. Recently I did exactly that - I had an interview involving a LeetCode-style toy problem. I got some feedback I wanted to share because it is telling. I'm the first candidate the interviewer had met who test-drove a solution. I got the second interview because of it.
+Interviews can be nerve-wracking, especially when you're asked to solve toy problems on the spot. But what if there was a way to stand out and make the process smoother? Writing tests during your interview might just be the edge you need. In this post, I'll share how automated testing can help you shine in technical interviews.
+
+Something I haven’t thought about in a long time is solving toy problems during an interview. Recently, I did exactly that - I had an interview involving a LeetCode-style toy problem. I got some feedback I wanted to share because it is telling. I'm the first candidate the interviewer had met who test-drove a solution. I got the second interview because of it.
 
 Test driving is more than writing tests. Even so, the act of writing tests is still enough to make your interview experience smoother. Being able to write tests in an interview setting will set you apart from other candidates.
 
 In this post, we are going to explore how automated tests will help you do the following:
 
 - Keep track of what you have done and what you have left to do
-- Change the code you've written to handle new, unforeseen needs
+- Change the code you have written to handle new, unforeseen needs
 - Spot bugs in your code to shorten the time between writing new code and debugging
 
 All successful candidates I've seen in interviews account for these three things. Unsuccessful candidates tend to stumble because they are missing an organizational skill. Automated tests help you keep these three items in focus. They provide a crucial organizational framework on which you can lean.
@@ -22,7 +24,7 @@ All successful candidates I've seen in interviews account for these three things
 
 Part of the appeal of toy problems for interviewers is that they are tricky in some way. They introduce a problem that looks simple on the surface but has a lot of little traps and potholes along the way. The best thing you can do to keep from falling into the traps is to break down the tasks you want to tackle. After you have your tasks sorted out, prepare to pivot.
 
-If you are a test-after type person, that's fine, but write a comment down on what you mean to do next. Maintain ruthless focus on your task. Anything that gets in the way is either a product of the task or a distraction. Write notes on the distractions and stay focused on the immediate outcome. Solve only the problem at hand and don't look at the clock.
+If you are a test-after type of person, that's fine, but write a comment down on what you mean to do next. Maintain ruthless focus on your task. Anything that gets in the way is either a product of the task or a distraction. Take notes about the distractions and stay focused on the immediate outcome. Solve only the problem at hand and don't look at the clock.
 
 You wrote your comment. Now you have your solution crafted. Write a test. Make sure your test reflects the problem and your current solution. Focus on input and output and ignore the implementation. Implementation always changes, and yours will too.
 
@@ -36,7 +38,7 @@ Let's review what happened. You:
 
 These are crucial elements of keeping track of your tasks. Don't delete the comments when you finish. Don't delete any tests. Keep these pieces exactly as they are. You might need to come back and read them again. Also, your interviewer will likely review all the test artifacts at a later time. You want to ensure they have everything they need to advocate for you.
 
-Repeat this process as you solve the larger problem. If you run a test and discover something has changed, stop immediately. Fix your code. Don't move forward again until all your tests are passing. Passing tests are your lifeline, so keep them green.
+Repeat this process as you solve the larger problem. If you run a test and discover that something has changed, stop immediately. Fix your code. Don't move forward again until all your tests are passing. Passing tests are your lifeline, so keep them green.
 
 ## Change your code to meet new needs
 
@@ -59,7 +61,7 @@ If a discovery is part of the solution for your current task, make a note and ad
 
 If a discovery is not part of the current task, add a comment in your test block and complete the task at hand. Once the current task is complete, look at your notes. Ask questions. Sort requirements from work that is out of scope. If your discovery surfaces a new task, it is likely the next piece of work you need to do.
 
-Testing while interviewing keeps you centered on core elements of software development. These elements keep you focused on the most important work. Tests, as an organizational framework, help keep your priorities clear. Clear prioritization will set you apart from other candidates.
+Testing while interviewing keeps you centered on core elements of software development. These elements keep you focused on the most important work. Tests, as an organizational framework, help keep your priorities clear. Clear prioritization will set you apart from other candidates. Transitioning smoothly between tasks and discoveries demonstrates adaptability, a key trait interviewers look for.
 
 ## Spotting bugs in your code
 
@@ -71,7 +73,7 @@ When a bug emerges, the following events occur. First, you write some code and e
 
 Then you thank me.
 
-The more often you run your tests, the faster you will spot new bugs in your code. Spotting bugs by running your software may seem like putting a target on your back. The interviewer isn't interested in the fact that you created a bug, though. They want to see how quickly you find bugs and how you address them. In other words, spotting bugs quickly is a good thing.
+The more often you run your tests, the faster you will spot new bugs in your code. Spotting bugs by running your software may seem like putting a target on your back. However, interviewers aren't interested in the fact that you created a bug. They want to see how quickly you find and resolve it. In other words, spotting bugs quickly is a strength, not a weakness.
 
 Sometimes a bug highlights a misunderstanding or conflict in project criteria. This is an opportunity to discuss the acceptance criteria for the session. Sometimes interviewers will request more changes after you're done. Your tests will give you the confidence to make changes, knowing your solution is stable.
 
@@ -85,4 +87,4 @@ Writing tests is a hygienic practice that has real-world benefits during intervi
 
 Each of these is a quality interviewers look for in good candidates. Coming in armed with the ability to test your code makes it easy for you to stand out. The tests you write will serve to explain how you arrived at the solution you used. This will make it easier for interviewers to advocate for you if they think you are a good fit.
 
-A last bit of parting wisdom: practice early. Don't try to write your first test during an interview. The interviewer will see you are uncomfortable with the practice and it can hurt you. Be sure to spend time when the stakes are low and get good at writing tests. With a strong testing muscle, you will walk into interviews with confidence.
+A last bit of parting wisdom: practice early. Don't try to write your first test during an interview. The interviewer will see you are uncomfortable with the practice, and it can hurt you. Be sure to spend time when the stakes are low and get good at writing tests. With a strong testing muscle, you will walk into interviews with confidence.
