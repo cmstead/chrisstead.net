@@ -6,7 +6,7 @@ categories:
     - interviewing
     - work environment
 ---
-Coming into an interview is already stressful enough alone. When the tools you rely on aren't available it can make the most sturdy developers stumble. This is a follow up to my call to write tests during your interview. What happens when you discover there is no test framework available? You write your own!
+Coming into an interview is stressful enough. When the tools you rely on aren't available it can make the most sturdy developers stumble. This is a follow up to my call to write tests during your interview. What happens when you discover there is no test framework available? You write your own!
 
 The task of writing a test framework sounds daunting, but you don't need to build Jest to succeed. We are going to explore writing an ad hoc testing framework in three parts. We will focus on just-enough implementation. The emergence of our testing framework will support swift and effective problem solving. The three parts of our journey will be:
 
