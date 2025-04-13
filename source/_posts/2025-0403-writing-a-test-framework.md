@@ -72,3 +72,46 @@ expect(expected, result);
 ```
 
 This is enough implementation to solve step one of the problem, and it only took a few seconds to write. This is crucial to testing and developing our solution throughout the interview. We will use this as an anchor to build the rest of the framework, and deliver working software. I will leave the solution to this problem as an exercise for the reader. 
+
+Phase 2: The Test Runner
+
+If you plan to run more than one or two tests, it will be important to isolate them in order to ensure they don't interfere with each other. One of the easiest ways to limit this interference is by wrapping each test in a function of its own. Even the most robust and feature rich test frameworks still rely on this simple principle. Functions naturally create their own well-defined scope and have an added benefit of being automatically garbage collected after they are done executing. Following is a naive implementation:
+
+```
+function test1() {
+    const expected = 'Fizz';
+    const result = fizzbuzz(3);
+
+    expect(expected, result);
+}
+
+test1();
+```
+
+This absolutely gets the job done. It lacks a certain elegance we might want to see, even when solving a toy problem for an interview. Certain languages, JavaScript included, provide a nice way to tidy this up. We can use an immediately invoked function expression (IIFE). Let's look at this in action.
+
+```
+(function () {
+    const expected = 'Fizz';
+    const result = fizzbuzz(3);
+
+    expect(expected, result);
+})();
+```
+
+Interviewers would find this acceptable, so we could stop here. The biggest complaint I have, personally, about this is that it still requires you properly structure your IIFE for each test case. I'm clumsy and make mistakes which would slow me down. I prefer to rely on a little functional ingenuity to reduce what I have to remember. Let's throw our test in an array and use forEach to do the execution heavy-lifting.
+
+```
+[
+    () => {
+        const expected = 'Fizz';
+        const result = fizzbuzz(3);
+
+        expect(expected, result);
+    },
+].forEach((fn) => fn());
+```
+
+Now we have a nice tidy test runner that will help us stay organized and isolate our test cases. By structuring our tests this way, it becomes obvious where each test case starts and ends. Our expectation output will align with our test structure, making it easy to find which case failed, even in a heavily restricted interview environment.
+
+Phase 3: Iterative Enhancement
