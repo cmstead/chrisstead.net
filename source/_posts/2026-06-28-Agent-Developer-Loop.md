@@ -33,11 +33,11 @@ I propose, in this age of agentic coding, there is a new loop - The Agent-Develo
 **Prompt** -> **Generate Code** -> **Validate Code** -> **Generate Tests** -> **Architectural Revision**
 
 We can actually break this up into the human and computer bits:
-- Prompting is a human undertaking. Somewhere along the line a human has to take product specs and turn them into something the agent can consume.
-- Code generation is the computer. You pull the cord and let it rip.
-- Code validation - human. Sure, the LLM could be sent to validate the code it just wrote, but that's unlikely to end well.
-- Test generation - probably the computer. Your coding agent can pin down software behaviors pretty well, so you may not get the value you expect out of painstakingly hand crafting every test.
-- Architectural revision - human all the way. An agent can suggest patterns, but someone still has to decide what kind of system is being built, what tradeoffs matter, and how the codebase should evolve over time.
+- **Prompting** is a human undertaking. Somewhere along the line a human has to take product specs and turn them into something the agent can consume.
+- **Code generation** is the computer. You pull the cord and let it rip.
+- **Code validation** - human. Sure, the LLM could be sent to validate the code it just wrote, but that's unlikely to end well.
+- **Test generation** - probably the computer. Your coding agent can pin down software behaviors pretty well, so you may not get the value you expect out of painstakingly hand crafting every test.
+- **Architectural revision** - human all the way. An agent can suggest patterns, but someone still has to decide what kind of system is being built, what tradeoffs matter, and how the codebase should evolve over time.
 
 When we build the loop this way, humans become an integral part of the software development process as the guides through the business and architectural wilds. It also calls out skills you absolutely must have:
 
