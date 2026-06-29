@@ -30,7 +30,7 @@ It would be easy to write off software architecture as a lost cause. Now that th
 
 I propose, in this age of agentic coding, there is a new loop - The Agent-Developer loop. Humans still need to be part of the software development lifecycle even if the coding agent _could_ merrily go along cranking out thousands upon thousands of lines of code without much intervention. Here's what I think the new loop realistically can look like:
 
-Prompt -> Generate Code -> Validate Code -> Generate Tests -> Architectural Revision
+**Prompt** -> **Generate Code** -> **Validate Code** -> **Generate Tests** -> **Architectural Revision**
 
 We can actually break this up into the human and computer bits:
 - Prompting is a human undertaking. Somewhere along the line a human has to take product specs and turn them into something the agent can consume.
