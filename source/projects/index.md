@@ -17,3 +17,8 @@ permalink: /projects/
 - **[Mochadoc](https://www.npmjs.com/package/mochadoc)** - Generate comprehensive documentation automatically from your automated tests
 - **[Promise Puppeteer](https://www.npmjs.com/package/promise-puppeteer)** - Write simpler tests around promise-consuming code, control promises from within your tests to create deterministic, synchronous behavior
 - **[Signet](https://www.npmjs.com/package/signet)** - A type library for improving the Javascript programming experience by providing typed context clues, and type safety in vanilla Javascript
+
+**Other Projects**
+
+- **[DISC Lang](https://disclang.github.io/)** - A programming language focused on learning programming through more natural language; written to execute on the web and at the command line
+- **[Lite-Agent](https://github.com/cmstead/lite-agent)** - A lightweight agentic harness written with LiteLLM, designed to work with models even if tool calling is not supported
