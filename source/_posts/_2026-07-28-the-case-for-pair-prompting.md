@@ -7,49 +7,45 @@ categories:
     - generative ai
 ---
 
-I find myself thinking from time to time about what I want to get out of practices I use. I believe that every software development practice deserves reflection to ensure it is helping you accomplish what you want. One such practice I regularly reflect on is pair programming. By design and definition, pair programming accomplishes several aims at once, including better design through continuous discussion, shared ownership of the codebase, and knowledge transfer. The core element underpinning all good(tm) that comes out of pair programming is human interaction.
+Lately I have heard of people talking about pair programming with AI chat or a coding agent. The claim is that they are getting the benefits of pair programming without the cost of having another human at the keyboard with them. On the surface this sounds rather compelling. You always have a pairing partner and they are less expensive than a second person. For solo developers who have no pair partner this would be a vast improvement. For people already working in an XP shop, I believe this is a step down in value from traditional pair programming.
 
-Lately I have heard of people pair programming with AI chat or a coding agent. They do all of their discussion, planning and execution. The claim is that they are getting the benefits of pair programming without the cost of having two developers at a computer at the same time. Each time I hear this I raise an eyebrow. It feels like something is missing. Are they having continuous discussion? Sure. Are they learning faster? The jury is out. Are they benefitting from shared ownership and knowledge transfer? It would seem not.
+## So, why do pair programming in the first place?
 
-what gets lost?
-            - Design discussions disappear.
-            - Architecture decisions become invisible.
-            - Assumptions aren't challenged.
-            - Knowledge remains with one developer.
-            - PR reviews become the first human review.
-            - Team members become consumers instead of collaborators.
+Pair programming isn't about having two people type code. It's about improving the quality of thinking that goes into the software. You get better design through continuous discussion. Though there are numerous reasons for pair programming, I would like to focus on five benefits you get from the practice:
 
-Let's explore what actually gets lost when you lose human interaction.
+- Clarity of thought
+- Better design
+- Continuous review
+- Shared ownership
+- Knowledge sharing
 
-In fact, there are many benefits beyond the three I listed in the opening paragraph which all come from human interaction and only from human interaction. Generative AI seems to be here to stay so I have started asking myself, how do you get the best from interacting with generative AI while keeping humans in the loop?
+Pair programming often involves the driver/navigator paradigm. This means that ideas flow out of one person, through the hands of another person and into the code. This process forces the navigator to verbalize their ideas, which helps organize thought and leaves room for the driver to ask questions and seek clarity before typing.
 
-In Extreme Programming (XP) tests are the foundation for design discovery. They are not only a safety harness for your code, they are an artifact of the design process. With generative AI, the foundation for design discovery is shifting from tests to prompts. Developers are leaning into prompting to drive discovery with AI chat and implementation with coding agents. We can use this new medium to facilitate human interaction.
+When developers work together, not only do they talk about the code in the small, they also talk about the ramifications of the code in the large. When TDD is included in the process, opportunities for refactoring emerge continuously. Each refactoring step is a design opportunity which leaves the door open for discussion about design and architectural patterns. These can be applied in real time and the code improves.
 
-Enter Pair Programming
+Since all ideas are being verbalized before they are committed to code, there is not just a simple code review, but an initial review of the solutions being designed by the developers in the pair. Once code is typed and on screen, the navigator is in a position to review and provide feedback on the implementation. As the driver and navigator switch positions, each person will have time and focus to review ideas and code in real time leading to more thoroughly vetted solutions.
 
+With two people writing code together, no single person owns the entire solution. There is no my code, or your design. Instead there is our work. With shared ownership you get greater consistency, broad architectural awareness, and a sense of shared responsibility which improves team morale.
 
+Finally, pair programming provides a vehicle for knowledge sharing. When developers pair on a solution each benefits from the experiences of the other and gains new knowledge not just in the current codebase, but also in the broader topic of programming and problem solving.
 
-- Why do you do pair programming?
-    - Better design through continuous discussion
-    - Continuous code review
-    - Shared ownership of the codebase
-    - Knowledge transfer
-    - Reduced defects
-    - Faster learning
-    - Better decisions
-- Working alone with an AI coding assistant does not produce the collaborative benefits that XP pair programming was designed to create.
-    - Only one person makes all design and development decisions
-    - Review becomes async - PR reviews become the norm
-    - Knowledge is not shared - ai does not persist shared knowledge in a development environment
-        - what gets lost?
-            - Design discussions disappear.
-            - Architecture decisions become invisible.
-            - Assumptions aren't challenged.
-            - Knowledge remains with one developer.
-            - PR reviews become the first human review.
-            - Team members become consumers instead of collaborators.
+When pairing is moved from two programmers working in concert to a programmer and chat or a coding agent, many of these benefits disappear. Let's take a look at what happens when a programmer pairs with AI.
 
-Do pair prompting! (Think of something better... Enter pair prompting)
+## What do you lose?
+
+When working as a solo developer pairing with AI, many of the benefits that come from the human practice of pair programming are lost. The process stops being handled out loud and the developer becomes isolated from the rest of the team, largely generating solutions alone. Reviews become asynchronous and pull requests become the norm. Knowledge is not shared with the rest of the team. Though the single developer may learn something new in the process, there is no knowledge sharing as Ai doesn't doesn't become a more knowledgeable teammate. New outcomes arise from the practice of pairing with AI:
+
+- Design discussions are obscured
+- Architectural reasoning becomes opaque
+- Knowledge remains with one developer
+- PR reviews become the first human review
+- Team members become consumers instead of collaborators
+
+**Do something with this to flesh it out and improve it**
+This is to say, though the thinking is done with a second perspective, many of the key benefits that come with pair programming are lost or turned into asynchronous behaviors involving humans after the fact.
+**It just needs to close out a short section so give it a solid close**
+
+## Enter Pair Prompting
 
 - Why pair prompting?
     - prompting is design - in pair prompting, design happens together
@@ -63,6 +59,9 @@ Do pair prompting! (Think of something better... Enter pair prompting)
     - design happens together
     - review happens together
     - knowledge is shared
+
+## The Process
+
 - What does the process look like, then?
     1. Discuss the problem together.
     2. Refine the prompt until both developers agree.
@@ -74,15 +73,7 @@ Do pair prompting! (Think of something better... Enter pair prompting)
     8. Review and refactor together.
     9. Commit with shared understanding.
 
-Address the share afterward objection - this is the same as the PR review after.
-
-"Couldn't I just share my prompts afterward?"
-
-I'd address this explicitly.
-
-Something like:
-
-Reading prompts after the work is complete is similar to reviewing a pull request after the implementation. The collaboration has already happened. Pair prompting is about making design decisions together before and during implementation, not documenting them afterward.
+## Conclusion
 
 - Summary
     - XP principles still apply
