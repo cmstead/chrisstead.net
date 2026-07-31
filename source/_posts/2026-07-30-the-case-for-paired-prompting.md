@@ -1,6 +1,6 @@
 ---
-title: "The Case for Pair Prompting"
-date: 2026-07-28
+title: "The Case for Paired Prompting"
+date: 2026-07-30
 categories:
     - software development
     - pair programming
@@ -41,41 +41,37 @@ When working as a solo developer pairing with AI, many of the benefits that come
 - PR reviews become the first human review
 - Team members become consumers instead of collaborators
 
-**Do something with this to flesh it out and improve it**
-This is to say, though the thinking is done with a second perspective, many of the key benefits that come with pair programming are lost or turned into asynchronous behaviors involving humans after the fact.
-**It just needs to close out a short section so give it a solid close**
+Although Ai provides a second perspective while developing, the key human aspects of pair programming are lost or obscured. Human review happens late, the decision process is not distributed across the team, and knowledge is not shared through human interaction. All of this leads to a team who less equipped to collaborate on solutions and deliver working software smoothly and quickly. Ultimately people end up prompting AI in isolation with reduced human support.
 
-## Enter Pair Prompting
+## Enter Paired Prompting
 
-- Why pair prompting?
-    - prompting is design - in pair prompting, design happens together
-        - defining requirements
-        - exploring alternatives
-        - discussing tradeoffs
-        - defining tests
-        - defining constraints
-        - deciding architecture
-        - deciding what not to build
-    - design happens together
-    - review happens together
-    - knowledge is shared
+Paired prompting is the practice of two developers working at a single computer together, engaging an AI system to augment pair programming practices. Rather than replacing pair programming, AI provides support for mechanical development practices, while leaving humans responsible for design and delivery.
+
+If we consider tests to be the facilitating medium for discussion and design in an XP environment without AI, prompts would be the post-AI analog. I propose that the new paradigm when using AI in an XP work environment is paired prompting. Paired prompting is the practice of two developers working at the same machine at the same time, interacting not only with the problem, but also with the AI.
+
+In paired prompting two people define requirements, explore alternatives, discuss tradeoffs and more while augmenting the work with AI chat or a coding agent. This brings back the good that comes with classic pair programming and emphasizes the thinking work like design and review that humans do best. In the end, knowledge is shared, decision processes become transparent and collective ownership is restored.
 
 ## The Process
 
-- What does the process look like, then?
-    1. Discuss the problem together.
-    2. Refine the prompt until both developers agree.
-    3. Review the AI's proposed implementation.
-    4. Challenge assumptions and refine the design.
-    5. Generate implementation.
-    6. Generate tests.
-    7. Run tests together.
-    8. Review and refactor together.
-    9. Commit with shared understanding.
+When working in a paired prompting environment, the process that used to involve only humans gets a third element folded in. Now the process we would follow looks like this:
+
+Humans:
+1. Discuss the problem together
+2. Refine the prompt until both developers agree
+3. Review the AI's proposed implementation
+4. Challenge assumptions and refine the design
+
+Agent/Humans:
+5. Generate implementation
+6. Generate tests
+
+Humans:
+7. Run tests together
+8. Review and refactor together
+9. Commit with shared understanding
+
+By following this playbook, humans once again become centered in the process and focus their energy making decisions together. Systems are designed together. Prompting becomes the facilitating mechanism for human interaction. In the end the team is enriched by the process.
 
 ## Conclusion
 
-- Summary
-    - XP principles still apply
-    - Pair prompting holds to the spirit of pair programming
-    - Pair prompting can be thorough and garner real knowledge transfer
+If we look back at XP history, we can see that the principles that were once in place still apply. Humans are still central to the development process and the team requires human support. By leaning into paired prompting we lean into the history of pair programming. By using paired prompting, we can have a rich and thorough practice that supports human developers which garners real knowledge transfer. Design decisions are made together, review is done in tandem. With AI in the mix, we can speed the process of mechanical delivery, increasing the amount of time dedicated to higher level thinking and decision making.
