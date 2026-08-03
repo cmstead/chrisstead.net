@@ -74,5 +74,5 @@ menu:
   archives: /archives
   about: /about
 
-copyright: 2007-2025 Chris Stead
+copyright: 2007-2026 Chris Stead
 ```
