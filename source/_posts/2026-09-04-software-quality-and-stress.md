@@ -36,7 +36,7 @@ In software the intrinsic load is best understood as the mental effort required 
 
 Given the impact of stress on the brain and how it effects germane load, it is unsurprising that stress also impacts the way we think and speak in the moment. Stress can actually lead to language that is simpler, and less rich. It can lead to repetition and actually narrows cognitive flexibility. [[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4059522/)] This means that someone who is under a substantial amount of stress is going to actually fall back to simpler overall language, though they may fill the space with repetition or the production of more, but simpler speech, i.e. rambling. 
 
-Now if we consider the impact of stress on source code, we can see how stress might lead to simpler program construction and a larger volume of source code for the same outcome. In fact, given what we know about cognitive load, speech, and stress, it seems highly likely that the reason your coworker wrote this long, rambling block of code using simple language (primitive language obsession) structures is because they are under a high level of stress causing their programming skills to suffer.
+Now if we consider the impact of stress on source code, we can see how stress might lead to simpler program construction and a larger volume of source code for the same outcome. In fact, given what we know about cognitive load, speech, and stress, it seems highly likely that the reason your coworker wrote this long, rambling block of code using simple language structures (primitive language obsession) is because they are under a high level of stress causing their programming skills to suffer.
 
 ## Reference articles:
 
