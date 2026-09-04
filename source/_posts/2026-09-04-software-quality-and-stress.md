@@ -26,9 +26,9 @@ Cognitive load theory is an instructional framework for developing curricula whi
 
 Cognitive load theory is built on the existence of three distinct sorts of cognitive load:
 
-1. Intrinsic load - the cognitive effort required to accomplish a task, e.g. learning or writing software
-2. Extraneous load - unnecessary or external influences which add to the cognitive effort necessary to accomplish a task
-3. Germane load - the mental effort required to convert learning into long-term memory
+1. **Intrinsic load** - the cognitive effort required to accomplish a task, e.g. learning or writing software
+2. **Extraneous load** - unnecessary or external influences which add to the cognitive effort necessary to accomplish a task
+3. **Germane load** - the mental effort required to convert learning into long-term memory
 
 In software the intrinsic load is best understood as the mental effort required to solve a programming problem. This may include experimenting, coding, and researching. Extraneous load can come in many forms, including computer software maintenance, yak shaving, environmental distractions, and unnecessary or exceptionally high stress. Given the nature of these extraneous elements, germane load can increase, especially when the developer is under high stress. In fact high stress can negatively impact the brain's ability to solve problems and form long term memories. [[1](https://www.americanbrainfoundation.org/the-brain-and-stress/)]
 
