@@ -12,7 +12,7 @@ I'm sure you've been there, you're reviewing code that is just too much to diges
 
 When working with generative AI, I always encourage everyone to start with a clean commit and end with a clean commit, but I am starting to push for something new: substantially limited scope. For a long time I have been a fan of well-scoped slices of work because they are easy to keep in your head as you work. Now I believe it is the way we should work in order to avoid being overrun by generated changes of extraordinary size.
 
-I have summed this philosophy up as, do not let a machine generate more code than you can fix in one sitting. It is not enough to say the change must be small enough to be read in one sitting. This is a recipe for rubber stamping changes. A bunch of code comes out of the far side of your LLM and your eyes glaze over. You read it by skimming and think "it looks good to me!" That's not enough. You must be able to not only read it, but fully digest it and be able to refactor, debug, and fix it all without needing to get up and go take a break before finishing.
+I have summed this philosophy up as, **do not let a machine generate more code than you can fix in one sitting. It is not enough to say the change must be small enough to be read in one sitting**. This is a recipe for rubber stamping changes. A bunch of code comes out of the far side of your LLM and your eyes glaze over. You read it by skimming and think "it looks good to me!" That's not enough. You must be able to not only read it, but fully digest it and be able to refactor, debug, and fix it all without needing to get up and go take a break before finishing.
 
 It turns out that is a pretty small slice, but that's also the point.
 
