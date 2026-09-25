@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI Assisted Coding - Maintaining Critical Engagement"
-date:   2026-09-20
+date:   2026-09-25
 categories: 
     - Coding
     - Focus
